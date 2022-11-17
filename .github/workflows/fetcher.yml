@@ -23,7 +23,7 @@ jobs:
           ruby-version: 3.0
       - name: Install gem
         run: |
-          gem install relaton-cli
+          gem install relaton-cli  -v '~> $RELATON_VERSION'
       - name: Fetch documents
         run: |
           rm -rf data
