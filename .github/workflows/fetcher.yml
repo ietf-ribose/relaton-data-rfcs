@@ -13,6 +13,10 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
+      - name: Get BibXML service’s Relaton version
+        run: echo "RELATON_VERSION=$(curl -L https://github.com/ietf-tools/bibxml-service/raw/main/RELATON_VERSION.txt)" >> $GITHUB_ENV
+      - name: Test BibXML service’s Relaton version
+        run: echo $RELATON_VERSION
       - name: Use Ruby
         uses: ruby/setup-ruby@v1
         with:
