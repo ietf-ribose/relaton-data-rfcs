@@ -273,6 +273,17 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9341
+    docid:
+    - id: RFC9341
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9341
+      format: text/plain
 series:
 - title:
     content: RFC
