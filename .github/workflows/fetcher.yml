@@ -29,7 +29,7 @@ jobs:
       - name: Fetch documents
         run: |
           rm -rf data
-          relaton fetch-data ietf-rfc-entries
+          bundle exec relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
           echo `date` > flag.txt
