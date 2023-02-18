@@ -1,0 +1,35 @@
+name: Retrieve Gemfiles
+
+on:
+  workflow_call:
+
+jobs:
+  fetch:
+    name: Retrieve Gemfiles
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+    - name: Remove existing Gemfile, Gemfile.lock, gemspec and /lib
+      run: rm -rf Gemfile Gemfile.lock relaton-cli.gemspec lib/
+    - name: mkdir bibxml-service
+      run: mkdir bibxml-service
+    - name: Checkout bibxml-service
+      uses: actions/checkout@v3
+      with:
+        repository: ietf-ribose/bibxml-service
+        ref: gemfilelock
+        path: ./bibxml-service
+    - name: copy Gemfiles
+      run: |
+        mv ./bibxml-service/lib .
+        mv ./bibxml-service/Gemfile .
+        mv ./bibxml-service/Gemfile.lock .
+        mv ./bibxml-service/relaton-cli.gemspec .    
+    - name: Push data
+      run: |
+        git config user.name stefanomunarini
+        git config user.email ssteee@gmail.com
+        git add Gemfile Gemfile.lock relaton-cli.gemspec lib/
+        git diff --quiet && git diff --staged --quiet || (git commit -m 'update Gemfile, Gemfile.lock, gemspec and /lib' && git push)
+
