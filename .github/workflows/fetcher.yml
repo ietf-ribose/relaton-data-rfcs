@@ -23,13 +23,17 @@ jobs:
       - name: ls
         run: ls
       - name: Install Gems
-        run: bundle install
-      - name: Verify Gems versions
-        run: bundle list
-      - name: Fetch documents
         run: |
+          bundle install
           rm -rf data
+          bundle list
           bundle exec relaton fetch-data ietf-rfc-entries
+#       - name: Verify Gems versions
+#         run: bundle list
+#       - name: Fetch documents
+#         run: |
+#           rm -rf data
+#           bundle exec relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
           echo `date` > flag.txt
