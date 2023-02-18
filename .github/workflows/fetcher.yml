@@ -25,7 +25,7 @@ jobs:
       - name: Install Gems
         run: bundle install
       - name: Verify Gems versions
-        run: gem list
+        run: bundle list
       - name: Fetch documents
         run: |
           rm -rf data
