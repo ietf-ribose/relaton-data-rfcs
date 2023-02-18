@@ -11,7 +11,7 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v3
     - name: Remove existing Gemfile, Gemfile.lock, gemspec and /lib
-      run: rm -rf Gemfile Gemfile.lock relaton-cli.gemspec lib/
+      run: rm -rf Gemfile Gemfile.lock relaton-cli.gemspec gemspec lib/
     - name: mkdir bibxml-service
       run: mkdir bibxml-service
     - name: Checkout bibxml-service
@@ -25,11 +25,12 @@ jobs:
         mv ./bibxml-service/lib .
         mv ./bibxml-service/Gemfile .
         mv ./bibxml-service/Gemfile.lock .
-        mv ./bibxml-service/relaton-cli.gemspec .    
+        mv ./bibxml-service/relaton-cli.gemspec .
+        mv ./bibxml-service/gemspec .
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
         git config user.email gh-bib-bot@llc.ietf.org
-        git add Gemfile Gemfile.lock relaton-cli.gemspec lib/
+        git add Gemfile Gemfile.lock relaton-cli.gemspec gemspec lib/
         git diff --quiet && git diff --staged --quiet || (git commit -m 'update Gemfile, Gemfile.lock, gemspec and /lib' && git push)
 
