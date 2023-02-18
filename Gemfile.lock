@@ -466,6 +466,7 @@ DEPENDENCIES
   pry
   rake
   relaton-cli!
+  relaton
   rspec (~> 3.0)
   rspec-command (~> 1.0.3)
   rspec-core (~> 3.4)
