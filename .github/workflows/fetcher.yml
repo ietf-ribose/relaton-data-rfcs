@@ -21,14 +21,14 @@ jobs:
         run: bundle install
       - name: Verify Gems versions
         run: gem list
-#       - name: Fetch documents
-#         run: |
-#           rm -rf data
-#           relaton fetch-data ietf-rfc-entries
-#       - name: Push data
-#         run: |
-#           echo `date` > flag.txt
-#           git config user.name ietf-bib-bot
-#           git config user.email gh-bib-bot@llc.ietf.org
-#           git add data flag.txt
-#           git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
+      - name: Fetch documents
+        run: |
+          rm -rf data
+          relaton fetch-data ietf-rfc-entries
+      - name: Push data
+        run: |
+          echo `date` > flag.txt
+          git config user.name ietf-bib-bot
+          git config user.email gh-bib-bot@llc.ietf.org
+          git add data flag.txt
+          git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
