@@ -17,6 +17,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: 3.0
+      - name: ls
+        run: ls
       - name: Install Gems
         run: bundle install
       - name: Verify Gems versions
