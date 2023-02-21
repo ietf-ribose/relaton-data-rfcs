@@ -17,6 +17,7 @@ jobs:
     - name: less Gemfile
       run: |
         less Gemfile
+        less Gemfile.lock
         ls
     - name: Push data
       run: |
