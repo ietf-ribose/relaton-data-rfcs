@@ -13,17 +13,17 @@ jobs:
     - name: Remove existing Gemfile and Gemfile.lock
       run: |
         rm -rf Gemfile Gemfile.lock
-        mkdir tmp
+        mkdir gemfiles
     - name: Download Gemfile and Gemfile.lock
       run: |
-        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o tmp/Gemfile
-        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o tmp/Gemfile.lock
+        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o gemfiles/Gemfile
+        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o gemfiles/Gemfile.lock
     - name: less Gemfile
       run: |
-        less tmp/Gemfile
-        less tmp/Gemfile.lock
-        ls /tmp
-        mv . tmp/Gemfile tmp/Gemfile.lock
+        less gemfiles/Gemfile
+        less gemfiles/Gemfile.lock
+        ls /gemfiles
+        mv -t . gemfiles/Gemfile gemfiles/Gemfile.lock
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
