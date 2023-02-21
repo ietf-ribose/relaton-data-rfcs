@@ -22,10 +22,7 @@ jobs:
         path: ./bibxml-service
     - name: copy Gemfiles
       run: |
-        mv ./bibxml-service/lib .
-        mv ./bibxml-service/Gemfile .
-        mv ./bibxml-service/Gemfile.lock .
-        mv ./bibxml-service/relaton-cli.gemspec .
+        mv -t ./bibxml-service/lib ./bibxml-service/Gemfile ./bibxml-service/Gemfile.lock ./bibxml-service/relaton-cli.gemspec
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
