@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1608
 title:
 - content: Representing IP Information in the X.500 Directory
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: Schemo
 editorialgroup:
 - name: osids
+ext:
+  schema-version: v1.0.0

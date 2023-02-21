@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4895
 title:
 - content: Authenticated Chunks for the Stream Control Transmission Protocol (SCTP)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: HMAC-ALGO
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

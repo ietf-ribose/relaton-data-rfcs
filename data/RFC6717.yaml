@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6717
 title:
 - content: kx509 Kerberized Certificate Issuance Protocol in Use in 2012
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -113,3 +119,5 @@ keyword:
 - content: KCA
 - content: kca-service
 - content: kca_service
+ext:
+  schema-version: v1.0.0

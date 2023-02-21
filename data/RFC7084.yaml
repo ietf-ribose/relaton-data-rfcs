@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7084
 title:
 - content: Basic Requirements for IPv6 Customer Edge Routers
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: DS-Lite
 editorialgroup:
 - name: v6ops
+ext:
+  schema-version: v1.0.0

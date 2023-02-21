@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9288
 title:
 - content: Recommendations on the Filtering of IPv6 Packets Containing IPv6 Extension
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ keyword:
 - content: filtering policy
 editorialgroup:
 - name: opsec
+ext:
+  schema-version: v1.0.0

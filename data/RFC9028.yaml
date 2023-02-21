@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9028
 title:
 - content: Native NAT Traversal Mode for the Host Identity Protocol
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: NAT traversal
 editorialgroup:
 - name: hip
+ext:
+  schema-version: v1.0.0

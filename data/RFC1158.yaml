@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1158
 title:
 - content: 'Management Information Base for network management of TCP/IP-based internets:
@@ -56,6 +57,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ series:
     content: RFC
     format: text/plain
   number: '1158'
+ext:
+  schema-version: v1.0.0

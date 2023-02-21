@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7162
 title:
 - content: 'IMAP Extensions: Quick Flag Changes Resynchronization (CONDSTORE) and
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ keyword:
 - content: quick resynchronization
 editorialgroup:
 - name: qresync
+ext:
+  schema-version: v1.0.0

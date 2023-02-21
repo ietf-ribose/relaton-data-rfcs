@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7210
 title:
 - content: Database of Long-Lived Symmetric Cryptographic Keys
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -167,3 +173,5 @@ series:
   number: '7210'
 editorialgroup:
 - name: karp
+ext:
+  schema-version: v1.0.0

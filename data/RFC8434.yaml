@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8434
 title:
 - content: Requirements for Parallel NFS (pNFS) Layout Types
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -91,3 +97,5 @@ keyword:
 - content: NFSv4
 editorialgroup:
 - name: nfsv4
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC407
 title:
 - content: Remote Job Entry Protocol
@@ -118,6 +119,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ series:
   number: '407'
 keyword:
 - content: RJE
+ext:
+  schema-version: v1.0.0

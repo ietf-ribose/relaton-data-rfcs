@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9030
 title:
 - content: An Architecture for IPv6 over the Time-Slotted Channel Hopping Mode of
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ keyword:
 - content: mesh
 editorialgroup:
 - name: 6tisch
+ext:
+  schema-version: v1.0.0

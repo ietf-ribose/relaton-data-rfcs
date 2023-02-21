@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2402
 title:
 - content: IP Authentication Header
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ keyword:
 - content: IPv6
 editorialgroup:
 - name: ipsec
+ext:
+  schema-version: v1.0.0

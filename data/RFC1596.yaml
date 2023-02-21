@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1596
 title:
 - content: Definitions of Managed Objects for Frame Relay Service
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: SNMP
 editorialgroup:
 - name: frnetmib
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8801
 title:
 - content: Discovering Provisioning Domain Names and Data
@@ -153,6 +154,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -188,3 +194,5 @@ keyword:
 - content: PvD
 editorialgroup:
 - name: intarea
+ext:
+  schema-version: v1.0.0

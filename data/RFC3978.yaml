@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3978
 title:
 - content: IETF Rights in Contributions
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -99,8 +105,10 @@ series:
     format: text/plain
   number: '3978'
 keyword:
-- content: intellectual property rights
+- content: Intellectual Property Rights
+- content: IPR
 - content: copyright
-- content: ipr
 editorialgroup:
 - name: ipr
+ext:
+  schema-version: v1.0.0

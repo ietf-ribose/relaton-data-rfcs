@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7825
 title:
 - content: A Network Address Translator (NAT) Traversal Mechanism for Media Controlled
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ keyword:
 - content: SDP
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

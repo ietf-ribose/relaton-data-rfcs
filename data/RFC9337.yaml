@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9337
 title:
 - content: Generating Password-Based Keys Using the GOST Algorithms
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ keyword:
 - content: GOST algorithms
 - content: pkcs5
 - content: gost
+ext:
+  schema-version: v1.0.0

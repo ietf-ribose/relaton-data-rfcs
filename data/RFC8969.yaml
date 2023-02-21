@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8969
 title:
 - content: A Framework for Automating Service and Network Management with YANG
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -207,3 +213,5 @@ keyword:
 - content: SDN
 editorialgroup:
 - name: opsawg
+ext:
+  schema-version: v1.0.0

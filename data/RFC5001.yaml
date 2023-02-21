@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5001
 title:
 - content: DNS Name Server Identifier (NSID) Option
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: namespace
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

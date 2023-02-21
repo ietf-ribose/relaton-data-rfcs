@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3475
 title:
 - content: Documentation of IANA assignments for Constraint-Based LSP setup using
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ series:
 keyword:
 - content: label switching protocol
 - content: itu-t
+ext:
+  schema-version: v1.0.0

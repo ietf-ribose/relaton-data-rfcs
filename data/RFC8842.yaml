@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8842
 title:
 - content: Session Description Protocol (SDP) Offer/Answer Considerations for Datagram
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: tls-id
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

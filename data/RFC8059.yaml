@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8059
 title:
 - content: PIM Join Attributes for Locator/ID Separation Protocol (LISP) Environments
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -164,3 +170,5 @@ series:
   number: '8059'
 editorialgroup:
 - name: pim
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4332
 title:
 - content: Cisco's Mobile IPv4 Host Configuration Extensions
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -174,3 +180,5 @@ keyword:
 - content: ip control protocol
 - content: ppp
 - content: ipcp
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7002
 title:
 - content: RTP Control Protocol (RTCP) Extended Report (XR) Block for Discard Count
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ series:
   number: '7002'
 editorialgroup:
 - name: xrblock
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC505
 title:
 - content: Two solutions to a file transfer access problem
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -71,3 +77,5 @@ series:
 keyword:
 - content: FTP
 - content: free
+ext:
+  schema-version: v1.0.0

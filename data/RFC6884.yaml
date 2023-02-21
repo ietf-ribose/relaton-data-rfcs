@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6884
 title:
 - content: RTP Payload Format for the Enhanced Variable Rate Narrowband-Wideband Codec
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ keyword:
 - content: EVRC-B
 editorialgroup:
 - name: payload
+ext:
+  schema-version: v1.0.0

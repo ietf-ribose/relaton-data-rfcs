@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1922
 title:
 - content: Chinese Character Encoding for Internet Messages
@@ -182,6 +183,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -211,3 +217,5 @@ keyword:
 - content: mail
 - content: telnet
 - content: WWW
+ext:
+  schema-version: v1.0.0

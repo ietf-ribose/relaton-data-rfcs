@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5316
 title:
 - content: ISIS Extensions in Support of Inter-Autonomous System (AS) MPLS and GMPLS
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -129,6 +135,17 @@ abstract:
   script:
   - Latn
   format: text/html
+relation:
+- type: obsoletedBy
+  bibitem:
+    id: RFC9346
+    docid:
+    - id: RFC9346
+      type: IETF
+      primary: true
+    formattedref:
+      content: RFC9346
+      format: text/plain
 series:
 - title:
     content: RFC
@@ -143,3 +160,5 @@ keyword:
 - content: flooding
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

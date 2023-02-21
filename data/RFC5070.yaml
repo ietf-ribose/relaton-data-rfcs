@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5070
 title:
 - content: The Incident Object Description Exchange Format
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -154,3 +160,5 @@ keyword:
 - content: cndsp
 editorialgroup:
 - name: inch
+ext:
+  schema-version: v1.0.0

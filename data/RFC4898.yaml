@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4898
 title:
 - content: TCP Extended Statistics MIB
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: TCP-ESTATS-MIB
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

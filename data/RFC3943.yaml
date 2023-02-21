@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3943
 title:
 - content: Transport Layer Security (TLS) Protocol Compression Using Lempel-Ziv-Stac
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ series:
 keyword:
 - content: lossless data compression algorithm
 - content: TLS Record Protocol
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9162
 title:
 - content: Certificate Transparency Version 2.0
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -146,3 +152,5 @@ keyword:
 - content: browsers
 editorialgroup:
 - name: trans
+ext:
+  schema-version: v1.0.0

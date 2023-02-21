@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5984
 title:
 - content: 'Increasing Throughput in IP Networks with ESP-Based Forwarding: ESPBasedForwarding'
@@ -37,6 +38,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -61,3 +67,5 @@ series:
   number: '5984'
 keyword:
 - content: extra sensory perception
+ext:
+  schema-version: v1.0.0

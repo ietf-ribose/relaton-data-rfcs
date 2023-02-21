@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1940
 title:
 - content: 'Source Demand Routing: Packet Format and Forwarding Specification (Version
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -194,3 +200,5 @@ keyword:
 - content: SDRP
 editorialgroup:
 - name: sdr
+ext:
+  schema-version: v1.0.0

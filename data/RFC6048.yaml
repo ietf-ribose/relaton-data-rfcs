@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6048
 title:
 - content: Network News Transfer Protocol (NNTP) Additions to LIST Command
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -102,3 +108,5 @@ keyword:
 - content: Usenet
 - content: NetNews
 - content: capabilities
+ext:
+  schema-version: v1.0.0

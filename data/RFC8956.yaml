@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8956
 title:
 - content: Dissemination of Flow Specification Rules for IPv6
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ keyword:
 - content: V6
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

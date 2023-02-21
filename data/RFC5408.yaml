@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5408
 title:
 - content: Identity-Based Encryption Architecture and Supporting Data Structures
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -136,3 +142,5 @@ keyword:
 - content: public-key encryption technology
 editorialgroup:
 - name: smime
+ext:
+  schema-version: v1.0.0

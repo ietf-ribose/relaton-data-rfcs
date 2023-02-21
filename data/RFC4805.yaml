@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4805
 title:
 - content: Definitions of Managed Objects for the DS1, J1, E1, DS2, and E2 Interface
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ keyword:
 - content: mib
 - content: management information base
 - content: DS1-MIB
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5349
 title:
 - content: Elliptic Curve Cryptography (ECC) Support for Public Key Cryptography for
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: elliptic curve diffie-hellman
 editorialgroup:
 - name: krb-wg
+ext:
+  schema-version: v1.0.0

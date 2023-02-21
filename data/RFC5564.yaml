@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5564
 title:
 - content: Linguistic Guidelines for the Use of the Arabic Language in Internet Domains
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ series:
   number: '5564'
 keyword:
 - content: arabic domain names
+ext:
+  schema-version: v1.0.0

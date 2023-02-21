@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC734
 title:
 - content: SUPDUP Protocol
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -70,3 +76,5 @@ series:
   number: '734'
 keyword:
 - content: SUPDUP
+ext:
+  schema-version: v1.0.0

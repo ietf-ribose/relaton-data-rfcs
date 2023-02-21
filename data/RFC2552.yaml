@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2552
 title:
 - content: Architecture for the Information Brokerage in the ACTS Project GAIA
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: electronic
 - content: systems
 - content: products
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7583
 title:
 - content: DNSSEC Key Rollover Timing Considerations
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -162,3 +168,5 @@ series:
   number: '7583'
 editorialgroup:
 - name: dnsop
+ext:
+  schema-version: v1.0.0

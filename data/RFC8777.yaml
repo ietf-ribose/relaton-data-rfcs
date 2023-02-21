@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8777
 title:
 - content: DNS Reverse IP Automatic Multicast Tunneling (AMT) Discovery
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -104,3 +110,5 @@ keyword:
 - content: AMTRELAY
 editorialgroup:
 - name: mboned
+ext:
+  schema-version: v1.0.0

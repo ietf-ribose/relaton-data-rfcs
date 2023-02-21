@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2014
 title:
 - content: IRTF Research Group Guidelines and Procedures
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -113,3 +119,5 @@ keyword:
 - content: Research
 - content: Task
 - content: Force
+ext:
+  schema-version: v1.0.0

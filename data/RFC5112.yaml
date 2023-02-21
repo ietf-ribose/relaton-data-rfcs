@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5112
 title:
 - content: The Presence-Specific Static Dictionary for Signaling Compression (Sigcomp)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ keyword:
 - content: communication session
 - content: event notification
 - content: presence
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5072
 title:
 - content: IP Version 6 over PPP
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: ipv6
 editorialgroup:
 - name: ipv6
+ext:
+  schema-version: v1.0.0

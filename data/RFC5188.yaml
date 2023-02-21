@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5188
 title:
 - content: RTP Payload Format for the Enhanced Variable Rate Wideband Codec (EVRC-WB)
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -118,3 +124,5 @@ series:
   number: '5188'
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

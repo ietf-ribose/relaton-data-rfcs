@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8328
 title:
 - content: Policy-Based Management Framework for the Simplified Use of Policy Abstractions
@@ -254,6 +255,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -290,3 +296,5 @@ keyword:
 - content: EPRIM
 - content: declarative policy
 - content: intent-based policy
+ext:
+  schema-version: v1.0.0

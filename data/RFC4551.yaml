@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4551
 title:
 - content: IMAP Extension for Conditional STORE Operation or Quick Flag Changes Resynchronization
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ keyword:
 - content: internet mail access protocol
 editorialgroup:
 - name: imapext
+ext:
+  schema-version: v1.0.0

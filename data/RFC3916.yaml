@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3916
 title:
 - content: Requirements for Pseudo-Wire Emulation Edge-to-Edge (PWE3)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ series:
   number: '3916'
 editorialgroup:
 - name: pwe3
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7432
 title:
 - content: BGP MPLS-Based Ethernet VPN
@@ -224,6 +225,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -248,3 +254,5 @@ series:
   number: '7432'
 editorialgroup:
 - name: l2vpn
+ext:
+  schema-version: v1.0.0

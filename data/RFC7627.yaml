@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7627
 title:
 - content: Transport Layer Security (TLS) Session Hash and Extended Master Secret
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -209,3 +215,5 @@ series:
   number: '7627'
 editorialgroup:
 - name: tls
+ext:
+  schema-version: v1.0.0

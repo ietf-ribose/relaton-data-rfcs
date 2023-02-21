@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4984
 title:
 - content: Report from the IAB Workshop on Routing and Addressing
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -147,3 +153,5 @@ keyword:
 - content: routing and addressing workshop
 - content: routing table growth
 - content: addressing architecture
+ext:
+  schema-version: v1.0.0

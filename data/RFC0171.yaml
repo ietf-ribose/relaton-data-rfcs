@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC171
 title:
 - content: The Data Transfer Protocol
@@ -311,6 +312,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -348,3 +354,5 @@ series:
 keyword:
 - content: FTP
 - content: DTP
+ext:
+  schema-version: v1.0.0

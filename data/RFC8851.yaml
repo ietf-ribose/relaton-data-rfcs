@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8851
 title:
 - content: RTP Payload Format Restrictions
@@ -55,6 +56,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -95,3 +101,5 @@ series:
   number: '8851'
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

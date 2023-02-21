@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6112
 title:
 - content: Anonymity Support for Kerberos
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -178,3 +184,5 @@ keyword:
 - content: kerberos realm
 editorialgroup:
 - name: krb-wg
+ext:
+  schema-version: v1.0.0

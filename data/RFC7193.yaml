@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7193
 title:
 - content: The application/cms Media Type
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -131,3 +137,5 @@ series:
   number: '7193'
 keyword:
 - content: Cryptographic Message Syntax
+ext:
+  schema-version: v1.0.0

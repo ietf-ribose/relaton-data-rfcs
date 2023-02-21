@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2657
 title:
 - content: LDAPv2 Client vs. the Index Mesh
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: common indexing protocol
 editorialgroup:
 - name: find
+ext:
+  schema-version: v1.0.0

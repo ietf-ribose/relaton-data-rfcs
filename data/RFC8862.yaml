@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8862
 title:
 - content: Best Practices for Securing RTP Media Signaled with SIP
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: security
 editorialgroup:
 - name: sipbrandy
+ext:
+  schema-version: v1.0.0

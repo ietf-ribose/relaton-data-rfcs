@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7551
 title:
 - content: RSVP-TE Extensions for Associated Bidirectional Label Switched Paths (LSPs)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ series:
   number: '7551'
 editorialgroup:
 - name: teas
+ext:
+  schema-version: v1.0.0

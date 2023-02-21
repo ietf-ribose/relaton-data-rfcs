@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3670
 title:
 - content: Information Model for Describing Network Device QoS Datapath Mechanisms
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -206,3 +212,5 @@ keyword:
 - content: traffic
 editorialgroup:
 - name: policy
+ext:
+  schema-version: v1.0.0

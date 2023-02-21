@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6023
 title:
 - content: A Childless Initiation of the Internet Key Exchange Version 2 (IKEv2) Security
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -162,3 +168,5 @@ series:
     content: RFC
     format: text/plain
   number: '6023'
+ext:
+  schema-version: v1.0.0

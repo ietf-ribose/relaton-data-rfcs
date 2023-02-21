@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7490
 title:
 - content: Remote Loop-Free Alternate (LFA) Fast Reroute (FRR)
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -190,3 +196,5 @@ series:
   number: '7490'
 editorialgroup:
 - name: rtgwg
+ext:
+  schema-version: v1.0.0

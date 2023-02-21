@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8295
 title:
 - content: EST (Enrollment over Secure Transport) Extensions
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ keyword:
 - content: Asymmetric Keys
 - content: Symmetric Keys
 - content: Product Availability List
+ext:
+  schema-version: v1.0.0

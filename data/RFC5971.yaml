@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5971
 title:
 - content: 'GIST: General Internet Signalling Transport'
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ keyword:
 - content: next steps in signaling
 editorialgroup:
 - name: nsis
+ext:
+  schema-version: v1.0.0

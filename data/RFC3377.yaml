@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3377
 title:
 - content: 'Lightweight Directory Access Protocol (v3): Technical Specification'
@@ -77,6 +78,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -188,3 +194,5 @@ keyword:
 - content: ldapv3
 editorialgroup:
 - name: ldapbis
+ext:
+  schema-version: v1.0.0

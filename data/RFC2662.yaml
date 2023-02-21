@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2662
 title:
 - content: Definitions of Managed Objects for the ADSL Lines
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -107,3 +113,5 @@ keyword:
 - content: Asymmetric Bit-Rate DSL
 editorialgroup:
 - name: adslmib
+ext:
+  schema-version: v1.0.0

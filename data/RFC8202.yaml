@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8202
 title:
 - content: IS-IS Multi-Instance
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ series:
   number: '8202'
 editorialgroup:
 - name: isis
+ext:
+  schema-version: v1.0.0

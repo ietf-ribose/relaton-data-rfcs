@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5966
 title:
 - content: DNS Transport over TCP - Implementation Requirements
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -107,3 +113,5 @@ keyword:
 - content: TCP/IP
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

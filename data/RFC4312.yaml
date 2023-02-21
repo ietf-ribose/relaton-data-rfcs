@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4312
 title:
 - content: The Camellia Cipher Algorithm and Its Use With IPsec
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: esp
 - content: encapsulating security payload
 - content: ip security
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8548
 title:
 - content: Cryptographic Protection of TCP Streams (tcpcrypt)
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -229,3 +235,5 @@ keyword:
 - content: encryption
 editorialgroup:
 - name: tcpinc
+ext:
+  schema-version: v1.0.0

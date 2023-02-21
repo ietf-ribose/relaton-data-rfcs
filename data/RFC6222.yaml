@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6222
 title:
 - content: Guidelines for Choosing RTP Control Protocol (RTCP) Canonical Names (CNAMEs)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -160,3 +166,5 @@ series:
   number: '6222'
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

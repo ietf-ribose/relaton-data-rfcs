@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6545
 title:
 - content: Real-time Inter-network Defense (RID)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ keyword:
 - content: incident communication
 editorialgroup:
 - name: mile
+ext:
+  schema-version: v1.0.0

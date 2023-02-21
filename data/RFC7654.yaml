@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7654
 title:
 - content: Benchmarking Methodology for In-Service Software Upgrade (ISSU)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ series:
   number: '7654'
 editorialgroup:
 - name: bmwg
+ext:
+  schema-version: v1.0.0

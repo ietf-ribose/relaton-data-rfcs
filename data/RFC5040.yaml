@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5040
 title:
 - content: A Remote Direct Memory Access Protocol Specification
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ keyword:
 - content: direct data placement protocol
 editorialgroup:
 - name: rddp
+ext:
+  schema-version: v1.0.0

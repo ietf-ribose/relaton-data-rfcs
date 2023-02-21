@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3051
 title:
 - content: IP Payload Compression Using ITU-T V.44 Packet Method
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -109,3 +115,5 @@ keyword:
 - content: international
 - content: telecommunication
 - content: union
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8506
 title:
 - content: Diameter Credit-Control Application
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: charging
 editorialgroup:
 - name: dime
+ext:
+  schema-version: v1.0.0

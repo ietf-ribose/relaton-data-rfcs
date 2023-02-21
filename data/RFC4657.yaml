@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4657
 title:
 - content: Path Computation Element (PCE) Communication Protocol Generic Requirements
@@ -84,6 +85,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -116,3 +122,5 @@ keyword:
 - content: path computation client
 editorialgroup:
 - name: pce
+ext:
+  schema-version: v1.0.0

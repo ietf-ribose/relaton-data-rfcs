@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5944
 title:
 - content: IP Mobility Support for IPv4, Revised
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -84,3 +90,5 @@ keyword:
 - content: MIPv4
 editorialgroup:
 - name: mip4
+ext:
+  schema-version: v1.0.0

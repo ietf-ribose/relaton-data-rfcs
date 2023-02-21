@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1797
 title:
 - content: Class A Subnet Experiment
@@ -26,6 +27,11 @@ contributor:
       content: IANA
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -58,3 +64,5 @@ keyword:
 - content: Address
 - content: '39'
 - content: Number
+ext:
+  schema-version: v1.0.0

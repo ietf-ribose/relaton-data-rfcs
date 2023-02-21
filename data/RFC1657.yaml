@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1657
 title:
 - content: Definitions of Managed Objects for the Fourth Version of the Border Gateway
@@ -109,6 +110,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -151,3 +157,5 @@ keyword:
 - content: Base
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3835
 title:
 - content: An Architecture for Open Pluggable Edge Services (OPES)
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ keyword:
 - content: data dispatcher architecture
 editorialgroup:
 - name: opes
+ext:
+  schema-version: v1.0.0

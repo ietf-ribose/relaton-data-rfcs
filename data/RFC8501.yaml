@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8501
 title:
 - content: Reverse DNS in IPv6 for Internet Service Providers
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: Reverse DNS
 editorialgroup:
 - name: dnsop
+ext:
+  schema-version: v1.0.0

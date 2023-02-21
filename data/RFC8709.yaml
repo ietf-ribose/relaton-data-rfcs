@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8709
 title:
 - content: Ed25519 and Ed448 Public Key Algorithms for the Secure Shell (SSH) Protocol
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ series:
   number: '8709'
 editorialgroup:
 - name: curdle
+ext:
+  schema-version: v1.0.0

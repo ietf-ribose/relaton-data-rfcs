@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9295
 title:
 - content: Clarifications for Ed25519, Ed448, X25519, and X448 Algorithm Identifiers
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: Elliptic Curve Cryptography
 editorialgroup:
 - name: lamps
+ext:
+  schema-version: v1.0.0

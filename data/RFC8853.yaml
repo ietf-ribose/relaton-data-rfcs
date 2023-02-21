@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8853
 title:
 - content: Using Simulcast in Session Description Protocol (SDP) and RTP Sessions
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -167,3 +173,5 @@ series:
   number: '8853'
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

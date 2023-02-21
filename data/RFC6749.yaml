@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6749
 title:
 - content: The OAuth 2.0 Authorization Framework
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ keyword:
 - content: Delegation
 editorialgroup:
 - name: oauth
+ext:
+  schema-version: v1.0.0

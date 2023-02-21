@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5530
 title:
 - content: IMAP Response Codes
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -75,3 +81,5 @@ series:
   number: '5530'
 keyword:
 - content: machine-readable response codes
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC311
 title:
 - content: New Console Attachments to the USCB Host
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -68,3 +74,5 @@ series:
     content: RFC
     format: text/plain
   number: '311'
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3597
 title:
 - content: Handling of Unknown DNS Resource Record (RR) Types
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -104,3 +110,5 @@ keyword:
 - content: Resource Record
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

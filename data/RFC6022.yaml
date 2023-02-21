@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6022
 title:
 - content: YANG Module for NETCONF Monitoring
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,7 +99,7 @@ abstract:
     information about NETCONF datastores, sessions, locks, and statistics.  This data
     facilitates the management of a NETCONF server.  This document also defines methods
     for NETCONF clients to discover data models supported by a NETCONF server and
-    defines a new NETCONF  operation to retrieve them. [STANDARDS-TRACK]</p>"
+    defines a new NETCONF   operation to retrieve them. [STANDARDS-TRACK]</p>"
   language:
   - en
   script:
@@ -111,3 +117,5 @@ keyword:
 - content: monitoring
 editorialgroup:
 - name: netconf
+ext:
+  schema-version: v1.0.0

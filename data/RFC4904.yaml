@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4904
 title:
 - content: Representing Trunk Groups in tel/sip Uniform Resource Identifiers (URIs)
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: PSTN
 editorialgroup:
 - name: iptel
+ext:
+  schema-version: v1.0.0

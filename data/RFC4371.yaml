@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4371
 title:
 - content: BCP 101 Update for IPR Trust
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -122,3 +128,5 @@ series:
     content: RFC
     format: text/plain
   number: '4371'
+ext:
+  schema-version: v1.0.0

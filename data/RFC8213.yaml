@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8213
 title:
 - content: Security of Messages Exchanged between Servers and Relay Agents
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -107,3 +113,5 @@ series:
   number: '8213'
 editorialgroup:
 - name: dhc
+ext:
+  schema-version: v1.0.0

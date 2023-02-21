@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8930
 title:
 - content: On Forwarding 6LoWPAN Fragments over a Multi-Hop IPv6 Network
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: Fragment
 editorialgroup:
 - name: 6lo
+ext:
+  schema-version: v1.0.0

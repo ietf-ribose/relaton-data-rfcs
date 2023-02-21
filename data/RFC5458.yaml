@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5458
 title:
 - content: Security Requirements for the Unidirectional Lightweight Encapsulation
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: generic stream encapsulation
 editorialgroup:
 - name: ipdvb
+ext:
+  schema-version: v1.0.0

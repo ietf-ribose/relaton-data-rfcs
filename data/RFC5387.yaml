@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5387
 title:
 - content: Problem and Applicability Statement for Better-Than-Nothing Security (BTNS)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: cbb
 editorialgroup:
 - name: btns
+ext:
+  schema-version: v1.0.0

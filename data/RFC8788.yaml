@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8788
 title:
 - content: Eligibility for the 2020-2021 Nominating Committee
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -83,3 +89,5 @@ series:
   number: '8788'
 keyword:
 - content: nomcom
+ext:
+  schema-version: v1.0.0

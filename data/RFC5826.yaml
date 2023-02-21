@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5826
 title:
 - content: Home Automation Routing Requirements in Low-Power and Lossy Networks
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -142,3 +148,5 @@ keyword:
 - content: routing over low power and lossy
 editorialgroup:
 - name: roll
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9263
 title:
 - content: Network Service Header (NSH) Metadata Type 2 Variable-Length Context Headers
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -194,3 +200,5 @@ keyword:
 - content: SFC metadata
 editorialgroup:
 - name: sfc
+ext:
+  schema-version: v1.0.0

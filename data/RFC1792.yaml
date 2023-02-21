@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1792
 title:
 - content: TCP/IPX Connection Mib Specification
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: Management
 - content: Information
 - content: Base
+ext:
+  schema-version: v1.0.0

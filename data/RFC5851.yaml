@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5851
 title:
 - content: Framework and Requirements for an Access Node Control Mechanism in Broadband
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -213,3 +219,5 @@ keyword:
 - content: Network Access Server
 editorialgroup:
 - name: ancp
+ext:
+  schema-version: v1.0.0

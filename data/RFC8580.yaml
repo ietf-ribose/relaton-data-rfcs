@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8580
 title:
 - content: 'Sieve Extension: File Carbon Copy (FCC)'
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -130,3 +136,5 @@ keyword:
 - content: Notify
 editorialgroup:
 - name: extra
+ext:
+  schema-version: v1.0.0

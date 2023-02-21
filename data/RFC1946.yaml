@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1946
 title:
 - content: Native ATM Support for ST2+
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: of
 - content: Service
 - content: QoS
+ext:
+  schema-version: v1.0.0

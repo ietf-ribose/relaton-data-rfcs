@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2111
 title:
 - content: Content-ID and Message-ID Uniform Resource Locators
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,3 +99,5 @@ keyword:
 - content: MIME
 editorialgroup:
 - name: mhtml
+ext:
+  schema-version: v1.0.0

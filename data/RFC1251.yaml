@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1251
 title:
 - content: 'Who''s Who in the Internet: Biographies of IAB, IESG and IRSG Members'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ keyword:
 - content: IESG
 - content: IRSG
 - content: IAB
+ext:
+  schema-version: v1.0.0

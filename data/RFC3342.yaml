@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3342
 title:
 - content: The Application Exchange (APEX) Option Party Pack, Part Deux!
@@ -253,6 +254,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -276,3 +282,5 @@ keyword:
 - content: mesh
 editorialgroup:
 - name: apex
+ext:
+  schema-version: v1.0.0

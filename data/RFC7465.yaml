@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7465
 title:
 - content: Prohibiting RC4 Cipher Suites
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -109,3 +115,5 @@ keyword:
 - content: transport layer security
 editorialgroup:
 - name: tls
+ext:
+  schema-version: v1.0.0

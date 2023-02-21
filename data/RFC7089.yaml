@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7089
 title:
 - content: HTTP Framework for Time-Based Access to Resource States -- Memento
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: resource versions
 - content: archival resources
 - content: Memento
+ext:
+  schema-version: v1.0.0

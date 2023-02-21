@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6333
 title:
 - content: Dual-Stack Lite Broadband Deployments Following IPv4 Exhaustion
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -165,3 +171,5 @@ keyword:
 - content: NAT
 editorialgroup:
 - name: softwire
+ext:
+  schema-version: v1.0.0

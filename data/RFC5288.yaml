@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5288
 title:
 - content: AES Galois Counter Mode (GCM) Cipher Suites for TLS
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: confidentiality
 editorialgroup:
 - name: tls
+ext:
+  schema-version: v1.0.0

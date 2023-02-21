@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1358
 title:
 - content: Charter of the Internet Architecture Board (IAB)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ keyword:
 - content: Society
 - content: IETF
 - content: IRTF
+ext:
+  schema-version: v1.0.0

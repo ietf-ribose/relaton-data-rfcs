@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5875
 title:
 - content: An Extensible Markup Language (XML) Configuration Access Protocol (XCAP)
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -109,3 +115,5 @@ keyword:
 - content: xcap diff
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

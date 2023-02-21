@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8274
 title:
 - content: Incident Object Description Exchange Format Usage Guidance
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -91,7 +97,7 @@ abstract:
 - content: "<p>The Incident Object Description Exchange Format (IODEF) v2 (RFC7970)
     defines a data representation that provides a framework for sharing information
     about computer security incidents commonly exchanged by Computer Security Incident
-    Response Teams (CSIRTs) .  Since the IODEF model includes a wealth of available
+    Response Teams (CSIRTs).  Since the IODEF model includes a wealth of available
     options that can be used to describe a security incident or issue, it can be challenging
     for security practitioners to develop tools that leverage IODEF for incident sharing.
     \ This document provides guidelines for IODEF implementers.  It addresses how
@@ -115,3 +121,5 @@ keyword:
 - content: IODEF practical recommendations
 editorialgroup:
 - name: mile
+ext:
+  schema-version: v1.0.0

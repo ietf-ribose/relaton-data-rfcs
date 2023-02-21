@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9134
 title:
 - content: RTP Payload Format for ISO/IEC 21122 (JPEG XS)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -174,3 +180,5 @@ keyword:
 - content: stream
 editorialgroup:
 - name: avtcore
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2028
 title:
 - content: The Organizations Involved in the IETF Standards Process
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -121,3 +127,5 @@ keyword:
 - content: Force
 editorialgroup:
 - name: poised95
+ext:
+  schema-version: v1.0.0

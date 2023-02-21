@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8019
 title:
 - content: Protecting Internet Key Exchange Protocol Version 2 (IKEv2) Implementations
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -111,3 +117,5 @@ keyword:
 - content: bitcoin
 editorialgroup:
 - name: ipsecme
+ext:
+  schema-version: v1.0.0

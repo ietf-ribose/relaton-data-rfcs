@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4265
 title:
 - content: Definition of Textual Conventions for Virtual Private Network (VPN) Management
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -104,3 +110,5 @@ keyword:
 - content: tc
 editorialgroup:
 - name: l3vpn
+ext:
+  schema-version: v1.0.0

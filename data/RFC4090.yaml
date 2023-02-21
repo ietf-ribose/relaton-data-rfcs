@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4090
 title:
 - content: Fast Reroute Extensions to RSVP-TE for LSP Tunnels
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -147,3 +153,5 @@ keyword:
 - content: facility backup
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6656
 title:
 - content: Description of Cisco Systems' Subnet Allocation Option for DHCPv4
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ series:
   number: '6656'
 editorialgroup:
 - name: dhc
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1732
 title:
 - content: IMAP4 Compatibility with IMAP2 and IMAP2bis
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: Email
 editorialgroup:
 - name: imap
+ext:
+  schema-version: v1.0.0

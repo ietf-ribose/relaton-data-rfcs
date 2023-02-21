@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6802
 title:
 - content: Ericsson Two-Way Active Measurement Protocol (TWAMP) Value-Added Octets
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: test session
 editorialgroup:
 - name: ippm
+ext:
+  schema-version: v1.0.0

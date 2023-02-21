@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4494
 title:
 - content: The AES-CMAC-96 Algorithm and Its Use with IPsec
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: xcbc
 - content: extended cipher block chaining
 - content: advanced encryption standard
+ext:
+  schema-version: v1.0.0

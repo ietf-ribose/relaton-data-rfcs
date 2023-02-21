@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3320
 title:
 - content: Signaling Compression (SigComp)
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -217,3 +223,5 @@ keyword:
 - content: Signaling Compression
 editorialgroup:
 - name: rohc
+ext:
+  schema-version: v1.0.0

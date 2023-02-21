@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3840
 title:
 - content: Indicating User Agent Capabilities in the Session Initiation Protocol (SIP)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: Session Initiation Protocol
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

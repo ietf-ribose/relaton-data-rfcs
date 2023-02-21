@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3289
 title:
 - content: Management Information Base for the Differentiated Services Architecture
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: router
 editorialgroup:
 - name: diffserv
+ext:
+  schema-version: v1.0.0

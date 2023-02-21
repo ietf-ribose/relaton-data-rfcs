@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6006
 title:
 - content: Extensions to the Path Computation Element Communication Protocol (PCEP)
@@ -196,6 +197,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -238,3 +244,5 @@ keyword:
 - content: fragmentation
 editorialgroup:
 - name: pce
+ext:
+  schema-version: v1.0.0

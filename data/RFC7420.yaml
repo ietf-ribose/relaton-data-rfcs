@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7420
 title:
 - content: Path Computation Element Communication Protocol (PCEP) Management Information
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -200,3 +206,5 @@ keyword:
 - content: PCEP
 editorialgroup:
 - name: pce
+ext:
+  schema-version: v1.0.0

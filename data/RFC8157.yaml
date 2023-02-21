@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8157
 title:
 - content: Huawei's GRE Tunnel Bonding Protocol
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -204,3 +210,5 @@ keyword:
 - content: GRE Channel
 - content: Hybrid Access Aggregation Point
 - content: Home Gateway
+ext:
+  schema-version: v1.0.0

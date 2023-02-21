@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4638
 title:
 - content: Accommodating a Maximum Transit Unit/Maximum Receive Unit (MTU/MRU) Greater
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -193,3 +199,5 @@ series:
   number: '4638'
 editorialgroup:
 - name: pppext
+ext:
+  schema-version: v1.0.0

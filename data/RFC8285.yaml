@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8285
 title:
 - content: A General Mechanism for RTP Header Extensions
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
   number: '8285'
 editorialgroup:
 - name: avtcore
+ext:
+  schema-version: v1.0.0

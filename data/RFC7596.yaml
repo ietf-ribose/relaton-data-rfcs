@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7596
 title:
 - content: 'Lightweight 4over6: An Extension to the Dual-Stack Lite Architecture'
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -233,3 +239,5 @@ keyword:
 - content: IPv4 over IPv6 connectivity
 editorialgroup:
 - name: softwire
+ext:
+  schema-version: v1.0.0

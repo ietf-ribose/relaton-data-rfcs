@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5021
 title:
 - content: Extended Kerberos Version 5 Key Distribution Center (KDC) Exchanges over
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -87,3 +93,5 @@ series:
   number: '5021'
 editorialgroup:
 - name: krb-wg
+ext:
+  schema-version: v1.0.0

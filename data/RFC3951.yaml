@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3951
 title:
 - content: Internet Low Bit Rate Codec (iLBC)
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -226,3 +232,5 @@ keyword:
 - content: Internet Low Bit Rate Codec
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

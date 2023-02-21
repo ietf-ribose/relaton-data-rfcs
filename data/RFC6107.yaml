@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6107
 title:
 - content: Procedures for Dynamically Signaled Hierarchical Label Switched Paths
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ keyword:
 - content: dynamically provisioned networks
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

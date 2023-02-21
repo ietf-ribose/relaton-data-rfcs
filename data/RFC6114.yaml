@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6114
 title:
 - content: The 128-Bit Blockcipher CLEFIA
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -112,3 +118,5 @@ keyword:
 - content: security
 - content: lightweight cryptography
 - content: encryption algorithm
+ext:
+  schema-version: v1.0.0

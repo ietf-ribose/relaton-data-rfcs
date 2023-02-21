@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3031
 title:
 - content: Multiprotocol Label Switching Architecture
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ keyword:
 - content: Multiprotocol Label Switching
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

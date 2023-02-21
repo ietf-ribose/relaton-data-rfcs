@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8891
 title:
 - content: 'GOST R 34.12-2015: Block Cipher "Magma"'
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -122,3 +128,5 @@ series:
 keyword:
 - content: Magma
 - content: Block Cipher
+ext:
+  schema-version: v1.0.0

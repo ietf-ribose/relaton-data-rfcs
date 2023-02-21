@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5121
 title:
 - content: Transmission of IPv6 via the IPv6 Convergence Sublayer over IEEE 802.16
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -203,3 +209,5 @@ keyword:
 - content: Per-MS Perfix
 editorialgroup:
 - name: 16ng
+ext:
+  schema-version: v1.0.0

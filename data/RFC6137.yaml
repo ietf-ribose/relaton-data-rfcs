@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6137
 title:
 - content: The Network Trouble Ticket Data Model (NTTDM)
@@ -137,6 +138,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: Grid
 - content: Management
 - content: EGEE
+ext:
+  schema-version: v1.0.0

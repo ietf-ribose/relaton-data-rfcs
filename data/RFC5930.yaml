@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5930
 title:
 - content: Using Advanced Encryption Standard Counter Mode (AES-CTR) with the Internet
@@ -96,6 +97,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -125,3 +131,5 @@ keyword:
 - content: IKE_SA_INIT
 editorialgroup:
 - name: ipsecme
+ext:
+  schema-version: v1.0.0

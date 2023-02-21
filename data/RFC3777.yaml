@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3777
 title:
 - content: 'IAB and IESG Selection, Confirmation, and Recall Process: Operation of
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,3 +99,5 @@ keyword:
 - content: Internet Engineering Steering Group
 editorialgroup:
 - name: nomcom
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4077
 title:
 - content: A Negative Acknowledgement Mechanism for Signaling Compression
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ keyword:
 - content: negative feedback
 editorialgroup:
 - name: rohc
+ext:
+  schema-version: v1.0.0

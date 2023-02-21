@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4260
 title:
 - content: Mobile IPv6 Fast Handovers for 802.11 Networks
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -76,3 +82,5 @@ keyword:
 - content: link layer
 editorialgroup:
 - name: mipshop
+ext:
+  schema-version: v1.0.0

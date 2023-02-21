@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5069
 title:
 - content: Security Threats and Requirements for Emergency Call Marking and Mapping
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -170,3 +176,5 @@ keyword:
 - content: pasp
 editorialgroup:
 - name: ecrit
+ext:
+  schema-version: v1.0.0

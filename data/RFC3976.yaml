@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3976
 title:
 - content: Interworking SIP and Intelligent Network (IN) Applications
@@ -113,6 +114,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: telephony services
 - content: public switched telephone network
 - content: pstn
+ext:
+  schema-version: v1.0.0

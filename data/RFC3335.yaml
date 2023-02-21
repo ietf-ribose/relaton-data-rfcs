@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3335
 title:
 - content: MIME-based Secure Peer-to-Peer Business Data Interchange over the Internet
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -128,3 +134,5 @@ keyword:
 - content: Electronic Data Interchange-Internet Integration
 editorialgroup:
 - name: ediint
+ext:
+  schema-version: v1.0.0

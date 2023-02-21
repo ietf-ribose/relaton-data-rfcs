@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2331
 title:
 - content: ATM Signalling Support for IP over ATM - UNI Signalling 4.0 Update
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: internet protocol
 editorialgroup:
 - name: ion
+ext:
+  schema-version: v1.0.0

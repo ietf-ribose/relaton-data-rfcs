@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6491
 title:
 - content: Resource Public Key Infrastructure (RPKI) Objects Issued by IANA
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: roa
 editorialgroup:
 - name: sidr
+ext:
+  schema-version: v1.0.0

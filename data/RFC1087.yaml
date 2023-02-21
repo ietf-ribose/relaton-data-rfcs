@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1087
 title:
 - content: Ethics and the Internet
@@ -35,6 +36,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -59,3 +65,5 @@ series:
 keyword:
 - content: Ethics
 - content: Internet
+ext:
+  schema-version: v1.0.0

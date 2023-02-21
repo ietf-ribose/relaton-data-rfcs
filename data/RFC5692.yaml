@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5692
 title:
 - content: Transmission of IP over Ethernet over IEEE 802.16 Networks
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: Cellular
 editorialgroup:
 - name: 16ng
+ext:
+  schema-version: v1.0.0

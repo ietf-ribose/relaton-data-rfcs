@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4656
 title:
 - content: A One-way Active Measurement Protocol (OWAMP)
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -197,3 +203,5 @@ keyword:
 - content: cdma
 editorialgroup:
 - name: ippm
+ext:
+  schema-version: v1.0.0

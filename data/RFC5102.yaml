@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5102
 title:
 - content: Information Model for IP Flow Information Export
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -211,3 +217,5 @@ keyword:
 - content: exporting process
 editorialgroup:
 - name: ipfix
+ext:
+  schema-version: v1.0.0

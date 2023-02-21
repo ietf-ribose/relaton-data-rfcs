@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2803
 title:
 - content: Digest Values for DOM (DOMHASH)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: secruity
 editorialgroup:
 - name: trade
+ext:
+  schema-version: v1.0.0

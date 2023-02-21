@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7729
 title:
 - content: Forwarding and Control Element Separation (ForCES) Logical Functional Block
@@ -109,6 +110,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: LFB
 - content: Subsidiary Management
 - content: Virtualization
+ext:
+  schema-version: v1.0.0

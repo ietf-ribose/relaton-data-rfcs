@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6956
 title:
 - content: Forwarding and Control Element Separation (ForCES) Logical Function Block
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -198,3 +204,5 @@ keyword:
 - content: Library
 editorialgroup:
 - name: forces
+ext:
+  schema-version: v1.0.0

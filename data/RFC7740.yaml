@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7740
 title:
 - content: Simulating Partial Mesh of Multipoint-to-Multipoint (MP2MP) Provider Tunnels
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: p-tunnel
 editorialgroup:
 - name: bess
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7912
 title:
 - content: Message Authorizing Email Header Field and Its Use for the Draft and Release
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: S/MIME
 - content: MIXER
 - content: email
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1057
 title:
 - content: 'RPC: Remote Procedure Call Protocol specification: Version 2'
@@ -26,6 +27,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -50,3 +56,5 @@ series:
   number: '1057'
 keyword:
 - content: SUN-RPC
+ext:
+  schema-version: v1.0.0

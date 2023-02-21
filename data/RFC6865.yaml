@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6865
 title:
 - content: Simple Reed-Solomon Forward Error Correction (FEC) Scheme for FECFRAME
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,7 +183,7 @@ script:
 abstract:
 - content: "<p>This document describes a fully-specified simple Forward Error Correction
     (FEC) scheme for Reed-Solomon codes over the finite field (also known as the Galois
-    Field) GF(2^^m), with 2 "
+    Field) GF(2^^m), with 2"
   language:
   - en
   script:
@@ -193,3 +199,5 @@ keyword:
 - content: Reed-Solomon
 editorialgroup:
 - name: fecframe
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6198
 title:
 - content: Requirements for the Graceful Shutdown of BGP Sessions
@@ -200,6 +201,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -243,3 +249,5 @@ keyword:
 - content: planned
 editorialgroup:
 - name: grow
+ext:
+  schema-version: v1.0.0

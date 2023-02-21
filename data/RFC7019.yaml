@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7019
 title:
 - content: Application-Layer Multicast Extensions to REsource LOcation And Discovery
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -107,3 +113,5 @@ series:
   number: '7019'
 keyword:
 - content: application-layer multicast
+ext:
+  schema-version: v1.0.0

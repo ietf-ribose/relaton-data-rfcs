@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5770
 title:
 - content: Basic Host Identity Protocol (HIP) Extensions for Traversal of Network
@@ -167,6 +168,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -201,3 +207,5 @@ keyword:
 - content: HIP relay
 editorialgroup:
 - name: hip
+ext:
+  schema-version: v1.0.0

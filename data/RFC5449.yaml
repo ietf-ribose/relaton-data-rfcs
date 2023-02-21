@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5449
 title:
 - content: OSPF Multipoint Relay (MPR) Extension for Ad Hoc Networks
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -166,3 +172,5 @@ keyword:
 - content: mobile ad hoc
 editorialgroup:
 - name: ospf
+ext:
+  schema-version: v1.0.0

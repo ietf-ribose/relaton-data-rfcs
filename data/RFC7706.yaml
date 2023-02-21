@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7706
 title:
 - content: Decreasing Access Time to Root Servers by Running One on Loopback
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -119,3 +125,5 @@ series:
   number: '7706'
 editorialgroup:
 - name: dnsop
+ext:
+  schema-version: v1.0.0

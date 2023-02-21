@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4397
 title:
 - content: A Lexicography for the Interpretation of Generalized Multiprotocol Label
@@ -81,6 +82,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -113,3 +119,5 @@ series:
   number: '4397'
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

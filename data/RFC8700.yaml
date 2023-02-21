@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8700
 title:
 - content: Fifty Years of RFCs
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -99,3 +105,5 @@ keyword:
 - content: History
 - content: RFC Series
 - content: Retrospective
+ext:
+  schema-version: v1.0.0

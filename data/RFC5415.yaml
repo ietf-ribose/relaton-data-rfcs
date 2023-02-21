@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5415
 title:
 - content: Control And Provisioning of Wireless Access Points (CAPWAP) Protocol Specification
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: Wireless Termination Point
 editorialgroup:
 - name: capwap
+ext:
+  schema-version: v1.0.0

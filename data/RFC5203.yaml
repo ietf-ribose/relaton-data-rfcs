@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5203
 title:
 - content: Host Identity Protocol (HIP) Registration Extension
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -146,3 +152,5 @@ keyword:
 - content: register
 editorialgroup:
 - name: hip
+ext:
+  schema-version: v1.0.0

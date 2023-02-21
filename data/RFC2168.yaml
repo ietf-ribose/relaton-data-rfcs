@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2168
 title:
 - content: Resolution of Uniform Resource Identifiers using the Domain Name System
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -146,3 +152,5 @@ series:
   number: '2168'
 editorialgroup:
 - name: urn
+ext:
+  schema-version: v1.0.0

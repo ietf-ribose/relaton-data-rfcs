@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4623
 title:
 - content: Pseudowire Emulation Edge-to-Edge (PWE3) Fragmentation and Reassembly
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -102,3 +108,5 @@ series:
   number: '4623'
 editorialgroup:
 - name: pwe3
+ext:
+  schema-version: v1.0.0

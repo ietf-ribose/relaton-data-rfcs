@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9109
 title:
 - content: 'Network Time Protocol Version 4: Port Randomization'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -151,3 +157,5 @@ keyword:
 - content: transport protocols
 editorialgroup:
 - name: ntp
+ext:
+  schema-version: v1.0.0

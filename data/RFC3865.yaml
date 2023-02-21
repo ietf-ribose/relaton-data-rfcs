@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3865
 title:
 - content: A No Soliciting Simple Mail Transfer Protocol (SMTP) Service Extension
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: solicitation class keywords
 - content: solicitation mail header
 - content: trace fields
+ext:
+  schema-version: v1.0.0

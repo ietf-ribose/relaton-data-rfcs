@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8391
 title:
 - content: 'XMSS: eXtended Merkle Signature Scheme'
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -214,3 +220,5 @@ keyword:
 - content: W-OTS+
 - content: XMSS-MT
 - content: multi-tree XMSS
+ext:
+  schema-version: v1.0.0

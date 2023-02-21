@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7864
 title:
 - content: Proxy Mobile IPv6 Extensions to Support Flow Mobility
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -96,3 +102,5 @@ keyword:
 - content: FMA
 editorialgroup:
 - name: netext
+ext:
+  schema-version: v1.0.0

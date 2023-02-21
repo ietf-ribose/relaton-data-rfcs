@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC879
 title:
 - content: The TCP Maximum Segment Size and Related Topics
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ series:
     content: RFC
     format: text/plain
   number: '879'
+ext:
+  schema-version: v1.0.0

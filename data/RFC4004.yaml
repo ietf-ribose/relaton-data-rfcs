@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4004
 title:
 - content: Diameter Mobile IPv4 Application
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -195,10 +201,10 @@ series:
 keyword:
 - content: internet protocol version 4
 - content: aaa
-- content: authentication
-- content: authorization
-- content: accounting
+- content: authentication authorization accounting
 - content: inter-realm
 - content: diameter accounting
 editorialgroup:
 - name: aaa
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2991
 title:
 - content: Multipath Issues in Unicast and Multicast Next-Hop Selection
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: forwarding
 - content: packets
 - content: ECMP
+ext:
+  schema-version: v1.0.0

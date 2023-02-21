@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7189
 title:
 - content: Virtual Circuit Connectivity Verification (VCCV) Capability Advertisement
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: MPLS-TP CC/CV/RDI
 editorialgroup:
 - name: pwe3
+ext:
+  schema-version: v1.0.0

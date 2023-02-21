@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2901
 title:
 - content: Guide to Administrative Procedures of the Internet Infrastructure
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -169,3 +175,5 @@ keyword:
 - content: database
 - content: domain name
 - content: registration
+ext:
+  schema-version: v1.0.0

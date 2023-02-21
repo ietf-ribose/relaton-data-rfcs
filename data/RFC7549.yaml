@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7549
 title:
 - content: 3GPP SIP URI Inter-Operator Traffic Leg Parameter
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: TRF
 - content: operator
 - content: transit
+ext:
+  schema-version: v1.0.0

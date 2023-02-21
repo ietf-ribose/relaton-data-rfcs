@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7242
 title:
 - content: Delay-Tolerant Networking TCP Convergence-Layer Protocol
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -130,3 +136,5 @@ series:
     content: RFC
     format: text/plain
   number: '7242'
+ext:
+  schema-version: v1.0.0

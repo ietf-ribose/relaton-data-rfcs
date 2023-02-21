@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3577
 title:
 - content: Introduction to the Remote Monitoring (RMON) Family of MIB Modules
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ keyword:
 - content: management information base
 editorialgroup:
 - name: rmonmib
+ext:
+  schema-version: v1.0.0

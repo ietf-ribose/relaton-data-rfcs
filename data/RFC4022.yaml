@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4022
 title:
 - content: Management Information Base for the Transmission Control Protocol (TCP)
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: MIB
 editorialgroup:
 - name: ipv6
+ext:
+  schema-version: v1.0.0

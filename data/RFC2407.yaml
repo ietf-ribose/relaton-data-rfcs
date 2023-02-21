@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2407
 title:
 - content: The Internet IP Security Domain of Interpretation for ISAKMP
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ keyword:
 - content: management
 editorialgroup:
 - name: ipsec
+ext:
+  schema-version: v1.0.0

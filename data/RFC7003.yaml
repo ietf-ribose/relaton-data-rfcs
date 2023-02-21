@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7003
 title:
 - content: RTP Control Protocol (RTCP) Extended Report (XR) Block for Burst/Gap Discard
@@ -109,6 +110,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: Real Time Control Protocol
 editorialgroup:
 - name: xrblock
+ext:
+  schema-version: v1.0.0

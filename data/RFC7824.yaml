@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7824
 title:
 - content: Privacy Considerations for DHCPv6
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ series:
   number: '7824'
 editorialgroup:
 - name: dhc
+ext:
+  schema-version: v1.0.0

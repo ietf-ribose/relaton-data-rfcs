@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6506
 title:
 - content: Supporting Authentication Trailer for OSPFv3
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: Routing security
 editorialgroup:
 - name: ospf
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2555
 title:
 - content: 30 Years of RFCs
@@ -24,6 +25,11 @@ contributor:
     - content: RFC Editor, et al.
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -57,3 +63,5 @@ keyword:
 - content: series
 - content: documents
 - content: publication
+ext:
+  schema-version: v1.0.0

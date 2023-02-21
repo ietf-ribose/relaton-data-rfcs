@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8550
 title:
 - content: Secure/Multipurpose Internet Mail Extensions (S/MIME) Version 4.0 Certificate
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: S/MIME
 editorialgroup:
 - name: lamps
+ext:
+  schema-version: v1.0.0

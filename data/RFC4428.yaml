@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4428
 title:
 - content: Analysis of Generalized Multi-Protocol Label Switching (GMPLS)-based Recovery
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ series:
   number: '4428'
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

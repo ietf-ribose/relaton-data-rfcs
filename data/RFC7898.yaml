@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7898
 title:
 - content: Domain Subobjects for Resource Reservation Protocol - Traffic Engineering
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -170,3 +176,5 @@ keyword:
 - content: subobjects
 editorialgroup:
 - name: teas
+ext:
+  schema-version: v1.0.0

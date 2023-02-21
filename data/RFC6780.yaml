@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6780
 title:
 - content: RSVP ASSOCIATION Object Extensions
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -179,3 +185,5 @@ series:
   number: '6780'
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

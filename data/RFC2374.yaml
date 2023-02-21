@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2374
 title:
 - content: An IPv6 Aggregatable Global Unicast Address Format
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ keyword:
 - content: routing
 editorialgroup:
 - name: ipngwg
+ext:
+  schema-version: v1.0.0

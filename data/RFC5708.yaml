@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5708
 title:
 - content: X.509 Key and Signature Encoding for the KeyNote Trust Management System
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -77,3 +83,5 @@ series:
     content: RFC
     format: text/plain
   number: '5708'
+ext:
+  schema-version: v1.0.0

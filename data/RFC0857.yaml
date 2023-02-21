@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC857
 title:
 - content: Telnet Echo Option
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ series:
   number: '857'
 keyword:
 - content: TOPT-ECHO
+ext:
+  schema-version: v1.0.0

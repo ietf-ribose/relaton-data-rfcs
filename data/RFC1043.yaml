@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1043
 title:
 - content: 'Telnet Data Entry Terminal option: DODIIS implementation'
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -115,3 +121,5 @@ series:
   number: '1043'
 keyword:
 - content: TOPT-DATA
+ext:
+  schema-version: v1.0.0

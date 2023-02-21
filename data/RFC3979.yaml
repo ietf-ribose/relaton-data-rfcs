@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3979
 title:
 - content: Intellectual Property Rights in IETF Technology
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -113,7 +119,10 @@ series:
     format: text/plain
   number: '3979'
 keyword:
-- content: ipr
+- content: IPR
+- content: Intellectual Property Rights
 - content: copyright
 editorialgroup:
 - name: ipr
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3631
 title:
 - content: Security Mechanisms for the Internet
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: host compromise
 - content: dos
 - content: denial of service
+ext:
+  schema-version: v1.0.0

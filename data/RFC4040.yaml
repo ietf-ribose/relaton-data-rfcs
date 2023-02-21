@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4040
 title:
 - content: RTP Payload Format for a 64 kbit/s Transparent Call
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -77,3 +83,5 @@ keyword:
 - content: realtime transport protocol
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

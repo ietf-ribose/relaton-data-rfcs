@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5695
 title:
 - content: MPLS Forwarding Benchmarking Methodology for IP Flows
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: mpmls forwarding devices
 editorialgroup:
 - name: bmwg
+ext:
+  schema-version: v1.0.0

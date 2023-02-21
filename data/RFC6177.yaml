@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6177
 title:
 - content: IPv6 Address Assignment to End Sites
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -149,3 +155,5 @@ keyword:
 - content: protocol
 editorialgroup:
 - name: v6ops
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5586
 title:
 - content: MPLS Generic Associated Channel
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -175,3 +181,5 @@ keyword:
 - content: generic associated label
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

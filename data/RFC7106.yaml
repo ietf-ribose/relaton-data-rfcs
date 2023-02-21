@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7106
 title:
 - content: A Group Text Chat Purpose for Conference and Service URIs in the SIP Event
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -61,7 +67,7 @@ script:
 - Latn
 abstract:
 - content: <p>This document defines and registers a value of "grouptextchat" ("Group
-    Text Chat") for the URI <purpose> element of SIP's Conference Event Package.</p>
+    Text Chat") for the URI<purpose> element of SIP's Conference Event Package.</p>
   language:
   - en
   script:
@@ -78,3 +84,5 @@ keyword:
 - content: service-uris
 - content: conference-uris
 - content: URI purpose
+ext:
+  schema-version: v1.0.0

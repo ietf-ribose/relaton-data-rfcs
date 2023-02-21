@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5384
 title:
 - content: The Protocol Independent Multicast (PIM) Join Attribute Format
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: attr_type
 editorialgroup:
 - name: pim
+ext:
+  schema-version: v1.0.0

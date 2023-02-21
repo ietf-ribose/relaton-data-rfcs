@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8119
 title:
 - content: SIP "cause" URI Parameter for Service Number Translation
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -120,3 +126,5 @@ series:
   number: '8119'
 keyword:
 - content: Cause
+ext:
+  schema-version: v1.0.0

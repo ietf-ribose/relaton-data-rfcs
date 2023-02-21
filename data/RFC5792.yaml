@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5792
 title:
 - content: 'PA-TNC: A Posture Attribute (PA) Protocol Compatible with Trusted Network
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ series:
   number: '5792'
 editorialgroup:
 - name: nea
+ext:
+  schema-version: v1.0.0

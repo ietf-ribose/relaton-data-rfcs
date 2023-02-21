@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5772
 title:
 - content: A Set of Possible Requirements for a Future Routing Architecture
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: RRG
 - content: IDR
 - content: FDR
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1487
 title:
 - content: X.500 Lightweight Directory Access Protocol
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -157,3 +163,5 @@ keyword:
 - content: interactive access
 editorialgroup:
 - name: osids
+ext:
+  schema-version: v1.0.0

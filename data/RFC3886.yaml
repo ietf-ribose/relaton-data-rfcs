@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3886
 title:
 - content: An Extensible Message Format for Message Tracking Responses
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -97,3 +103,5 @@ keyword:
 - content: MDN
 editorialgroup:
 - name: msgtrk
+ext:
+  schema-version: v1.0.0

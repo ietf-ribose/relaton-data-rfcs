@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1472
 title:
 - content: The Definitions of Managed Objects for the Security Protocols of the Point-to-Point
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: PPP
 editorialgroup:
 - name: pppext
+ext:
+  schema-version: v1.0.0

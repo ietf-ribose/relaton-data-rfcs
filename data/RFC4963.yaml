@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4963
 title:
 - content: IPv4 Reassembly Errors at High Data Rates
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
     content: RFC
     format: text/plain
   number: '4963'
+ext:
+  schema-version: v1.0.0

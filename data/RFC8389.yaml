@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8389
 title:
 - content: Definitions of Managed Objects for Mapping of Address and Port with Encapsulation
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -194,3 +200,5 @@ keyword:
 - content: MAP
 editorialgroup:
 - name: softwire
+ext:
+  schema-version: v1.0.0

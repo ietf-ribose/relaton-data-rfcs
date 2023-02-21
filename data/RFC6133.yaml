@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6133
 title:
 - content: 'Sieve Email Filtering: Use of Presence Information with Auto-Responder
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
   number: '6133'
 editorialgroup:
 - name: sieve
+ext:
+  schema-version: v1.0.0

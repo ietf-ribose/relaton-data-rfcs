@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7532
 title:
 - content: Namespace Database (NSDB) Protocol for Federated File Systems
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: Federated File Systems
 editorialgroup:
 - name: nfsv4
+ext:
+  schema-version: v1.0.0

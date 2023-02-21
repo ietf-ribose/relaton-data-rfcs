@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5466
 title:
 - content: IMAP4 Extension for Named Searches (Filters)
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ keyword:
 - content: Internet Message Access Protocol
 editorialgroup:
 - name: lemonade
+ext:
+  schema-version: v1.0.0

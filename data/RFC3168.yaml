@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3168
 title:
 - content: The Addition of Explicit Congestion Notification (ECN) to IP
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -178,3 +184,5 @@ keyword:
 - content: Explicit Congestion Notification
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2268
 title:
 - content: A Description of the RC2(r) Encryption Algorithm
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -78,3 +84,5 @@ keyword:
 - content: encryption
 - content: secre
 - content: key rsa
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5598
 title:
 - content: Internet Mail Architecture
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -114,3 +120,5 @@ keyword:
 - content: mail submission agent
 - content: mail delivery agent
 - content: administrative management domain
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC630
 title:
 - content: FTP error code usage for more reliable mail service
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -70,3 +76,5 @@ series:
     content: RFC
     format: text/plain
   number: '630'
+ext:
+  schema-version: v1.0.0

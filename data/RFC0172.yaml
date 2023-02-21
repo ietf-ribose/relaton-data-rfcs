@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC172
 title:
 - content: The File Transfer Protocol
@@ -311,6 +312,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -347,3 +353,5 @@ series:
   number: '172'
 keyword:
 - content: FTP
+ext:
+  schema-version: v1.0.0

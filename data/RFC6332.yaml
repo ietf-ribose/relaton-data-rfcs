@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6332
 title:
 - content: Multicast Acquisition Report Block Type for RTP Control Protocol (RTCP)
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -122,3 +128,5 @@ keyword:
 - content: fast channel change
 editorialgroup:
 - name: avtext
+ext:
+  schema-version: v1.0.0

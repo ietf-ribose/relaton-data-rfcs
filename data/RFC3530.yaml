@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3530
 title:
 - content: Network File System (NFS) version 4 Protocol
@@ -224,6 +225,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -268,3 +274,5 @@ keyword:
 - content: network file system
 editorialgroup:
 - name: nfsv4
+ext:
+  schema-version: v1.0.0

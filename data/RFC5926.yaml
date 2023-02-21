@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5926
 title:
 - content: Cryptographic Algorithms for the TCP Authentication Option (TCP-AO)
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: transmission control protocol
 editorialgroup:
 - name: tcpm
+ext:
+  schema-version: v1.0.0

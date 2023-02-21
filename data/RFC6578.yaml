@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6578
 title:
 - content: Collection Synchronization for Web Distributed Authoring and Versioning
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ series:
 keyword:
 - content: sync-collection
 - content: sync-token
+ext:
+  schema-version: v1.0.0

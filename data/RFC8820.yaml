@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8820
 title:
 - content: URI Design and Ownership
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ series:
   number: '8820'
 keyword:
 - content: URI structure
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4957
 title:
 - content: Link-Layer Event Notifications for Detecting Network Attachments
@@ -166,6 +167,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -192,3 +198,5 @@ series:
   number: '4957'
 editorialgroup:
 - name: dna
+ext:
+  schema-version: v1.0.0

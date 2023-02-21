@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3368
 title:
 - content: The 'go' URI Scheme for the Common Name Resolution Protocol
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -68,3 +74,5 @@ keyword:
 - content: uniform resource identifier
 - content: CNRP
 - content: Common Name Resolution Protocol
+ext:
+  schema-version: v1.0.0

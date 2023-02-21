@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5418
 title:
 - content: Control And Provisioning of Wireless Access Points (CAPWAP) Threat Analysis
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -115,3 +121,5 @@ keyword:
 - content: security
 editorialgroup:
 - name: capwap
+ext:
+  schema-version: v1.0.0

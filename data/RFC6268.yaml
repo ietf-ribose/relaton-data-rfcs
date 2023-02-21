@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6268
 title:
 - content: Additional New ASN.1 Modules for the Cryptographic Message Syntax (CMS)
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -121,3 +127,5 @@ keyword:
 - content: ASN.1
 - content: Certficate Extensions
 - content: HMAC
+ext:
+  schema-version: v1.0.0

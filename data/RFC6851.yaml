@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6851
 title:
 - content: Internet Message Access Protocol (IMAP) - MOVE Extension
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ keyword:
 - content: IMAP
 editorialgroup:
 - name: imapmove
+ext:
+  schema-version: v1.0.0

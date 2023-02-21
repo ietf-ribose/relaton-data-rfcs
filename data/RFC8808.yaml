@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8808
 title:
 - content: A YANG Data Model for Factory Default Settings
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
   number: '8808'
 editorialgroup:
 - name: netmod
+ext:
+  schema-version: v1.0.0

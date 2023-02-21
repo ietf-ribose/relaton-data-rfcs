@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7676
 title:
 - content: IPv6 Support for Generic Routing Encapsulation (GRE)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: IPv6
 editorialgroup:
 - name: intarea
+ext:
+  schema-version: v1.0.0

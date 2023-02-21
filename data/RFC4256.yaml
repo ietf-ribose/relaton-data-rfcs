@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4256
 title:
 - content: Generic Message Exchange Authentication for the Secure Shell Protocol (SSH)
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -110,3 +116,5 @@ keyword:
 - content: alphanumeric input
 editorialgroup:
 - name: secsh
+ext:
+  schema-version: v1.0.0

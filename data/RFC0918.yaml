@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC918
 title:
 - content: Post Office Protocol
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,3 +99,5 @@ series:
     content: RFC
     format: text/plain
   number: '918'
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2956
 title:
 - content: Overview of 1999 IAB Network Layer Workshop
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -78,3 +84,5 @@ keyword:
 - content: intenret
 - content: architecture
 - content: board
+ext:
+  schema-version: v1.0.0

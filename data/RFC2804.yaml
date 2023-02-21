@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2804
 title:
 - content: IETF Policy on Wiretapping
@@ -35,6 +36,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -63,3 +69,5 @@ keyword:
 - content: internet
 - content: engineering
 - content: task force
+ext:
+  schema-version: v1.0.0

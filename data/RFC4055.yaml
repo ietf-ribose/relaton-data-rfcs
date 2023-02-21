@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4055
 title:
 - content: Additional Algorithms and Identifiers for RSA Cryptography for use in the
@@ -110,6 +111,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -159,3 +165,5 @@ keyword:
 - content: pki
 editorialgroup:
 - name: pkix
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8707
 title:
 - content: Resource Indicators for OAuth 2.0
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: Audience
 editorialgroup:
 - name: oauth
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4788
 title:
 - content: Enhancements to RTP Payload Formats for EVRC Family Codecs
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -125,3 +131,5 @@ keyword:
 - content: discontinuous transmission
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

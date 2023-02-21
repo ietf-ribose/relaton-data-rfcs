@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8872
 title:
 - content: Guidelines for Using the Multiplexing Features of RTP to Support Multiple
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -197,3 +203,5 @@ keyword:
 - content: Simulcast
 editorialgroup:
 - name: avtcore
+ext:
+  schema-version: v1.0.0

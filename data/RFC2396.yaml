@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2396
 title:
 - content: 'Uniform Resource Identifiers (URI): Generic Syntax'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: string
 - content: absolute
 - content: relative
+ext:
+  schema-version: v1.0.0

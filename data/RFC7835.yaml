@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7835
 title:
 - content: Locator/ID Separation Protocol (LISP) Threat Analysis
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -131,3 +137,5 @@ series:
   number: '7835'
 editorialgroup:
 - name: lisp
+ext:
+  schema-version: v1.0.0

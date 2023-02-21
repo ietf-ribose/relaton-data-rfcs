@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4824
 title:
 - content: The Transmission of IP Datagrams over the Semaphore Flag Signaling System
@@ -109,6 +110,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ series:
 keyword:
 - content: internet protocol
 - content: april fools
+ext:
+  schema-version: v1.0.0

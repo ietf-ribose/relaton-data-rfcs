@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5154
 title:
 - content: IP over IEEE 802.16 Problem Statement and Goals
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: WiBro
 editorialgroup:
 - name: 16ng
+ext:
+  schema-version: v1.0.0

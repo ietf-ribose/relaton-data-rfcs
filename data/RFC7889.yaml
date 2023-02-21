@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7889
 title:
 - content: The IMAP APPENDLIMIT Extension
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -103,3 +109,5 @@ series:
   number: '7889'
 editorialgroup:
 - name: imapapnd
+ext:
+  schema-version: v1.0.0

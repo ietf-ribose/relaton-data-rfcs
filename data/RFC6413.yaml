@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6413
 title:
 - content: Benchmarking Methodology for Link-State IGP Data-Plane Route Convergence
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: Interior Gateway Protocol
 editorialgroup:
 - name: bmwg
+ext:
+  schema-version: v1.0.0

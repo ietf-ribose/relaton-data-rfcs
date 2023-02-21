@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4639
 title:
 - content: Cable Device Management Information Base for Data-Over-Cable Service Interface
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -110,3 +116,5 @@ keyword:
 - content: simple network management protocol
 editorialgroup:
 - name: ipcdn
+ext:
+  schema-version: v1.0.0

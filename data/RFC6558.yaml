@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6558
 title:
 - content: Sieve Extension for Converting Messages before Delivery
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: CONVERT
 editorialgroup:
 - name: sieve
+ext:
+  schema-version: v1.0.0

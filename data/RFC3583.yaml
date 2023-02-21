@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3583
 title:
 - content: Requirements of a Quality of Service (QoS) Solution for Mobile IP
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: node
 editorialgroup:
 - name: nsis
+ext:
+  schema-version: v1.0.0

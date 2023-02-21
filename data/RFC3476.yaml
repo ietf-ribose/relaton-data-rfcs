@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3476
 title:
 - content: Documentation of IANA Assignments for Label Distribution Protocol (LDP),
@@ -52,6 +53,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: optical interworking forum
 - content: uni
 - content: user network interface
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8061
 title:
 - content: Locator/ID Separation Protocol (LISP) Data-Plane Confidentiality
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ keyword:
 - content: lcaf
 editorialgroup:
 - name: lisp
+ext:
+  schema-version: v1.0.0

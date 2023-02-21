@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4731
 title:
 - content: IMAP4 Extension to SEARCH Command for Controlling What Kind of Information
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ series:
 keyword:
 - content: uid search
 - content: uid
+ext:
+  schema-version: v1.0.0

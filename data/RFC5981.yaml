@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5981
 title:
 - content: Authorization for NSIS Signaling Layer Protocols
@@ -137,6 +138,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -172,3 +178,5 @@ keyword:
 - content: General Internet Signaling Transport
 editorialgroup:
 - name: nsis
+ext:
+  schema-version: v1.0.0

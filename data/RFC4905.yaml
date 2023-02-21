@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4905
 title:
 - content: Encapsulation Methods for Transport of Layer 2 Frames over MPLS Networks
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: pdu
 - content: protocol data unit
 - content: draft-martini
+ext:
+  schema-version: v1.0.0

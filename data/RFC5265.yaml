@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5265
 title:
 - content: Mobile IPv4 Traversal across IPsec-Based VPN Gateways
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -110,3 +116,5 @@ keyword:
 - content: mipv4
 editorialgroup:
 - name: mip4
+ext:
+  schema-version: v1.0.0

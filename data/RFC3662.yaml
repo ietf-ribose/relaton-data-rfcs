@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3662
 title:
 - content: A Lower Effort Per-Domain Behavior (PDB) for Differentiated Services
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -152,3 +158,5 @@ keyword:
 - content: traffic network
 - content: ds
 - content: le
+ext:
+  schema-version: v1.0.0
