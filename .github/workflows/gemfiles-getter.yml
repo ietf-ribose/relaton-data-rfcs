@@ -31,5 +31,5 @@ jobs:
         git config user.name ietf-bib-bot
         git config user.email gh-bib-bot@llc.ietf.org
         git add Gemfile Gemfile.lock relaton-cli.gemspec lib/
-        git diff --quiet && git diff --staged --quiet || (git commit -m 'update Gemfile, Gemfile.lock, gemspec and /lib' && git push)
+        git diff --quiet && git diff --staged --quiet || (git commit -m 'update Gemfile, Gemfile.lock, gemspec and /lib' && git push -f)
 
