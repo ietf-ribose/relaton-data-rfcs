@@ -21,7 +21,7 @@ jobs:
 #         ref: gemfilelock
 #         path: ./bibxml-service
     - name: Download Gemfile and Gemfile.lock
-      run: curl --remote-name-all https://github.com/ietf-ribose/bibxml-service/raw/main/{Gemfile,Gemfile.lock)
+      run: curl --remote-name-all https://github.com/ietf-ribose/bibxml-service/raw/main/{Gemfile,Gemfile.lock}
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
