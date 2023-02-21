@@ -17,7 +17,7 @@ jobs:
     - name: Download Gemfile and Gemfile.lock
       run: |
         curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o Gemfile
-        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o Gemfile.lock
+        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile.lock -o Gemfile.lock
     - name: less Gemfile
       run: |
         less Gemfile
