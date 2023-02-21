@@ -22,8 +22,6 @@ jobs:
           ruby-version: 3.0
       - name: ls
         run: ls
-      - name: bundle add relaton-cli
-        run: bundle remove relaton-cli & bundle add relaton-cli --github 'ietf-ribose/bibxml-service' --ref 'gemfilelock'
       - name: Install Gems
         run: bundle install
       - name: Verify Gems versions
