@@ -16,14 +16,14 @@ jobs:
         mkdir gemfiles
     - name: Download Gemfile and Gemfile.lock
       run: |
-        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o gemfiles/Gemfile
-        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o gemfiles/Gemfile.lock
+        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o ./gemfiles/Gemfile
+        curl https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/Gemfile -o ./gemfiles/Gemfile.lock
     - name: less Gemfile
       run: |
-        less gemfiles/Gemfile
-        less gemfiles/Gemfile.lock
-        ls /gemfiles
-        mv -t . gemfiles/Gemfile gemfiles/Gemfile.lock
+        less ./gemfiles/Gemfile
+        less ./gemfiles/Gemfile.lock
+        ls ./gemfiles
+        mv -t . ./gemfiles/Gemfile ./gemfiles/Gemfile.lock
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
