@@ -15,7 +15,9 @@ jobs:
     - name: Download Gemfile and Gemfile.lock
       run: curl --remote-name-all https://github.com/ietf-ribose/bibxml-service/raw/gemfilelock/{Gemfile,Gemfile.lock}
     - name: less Gemfile
-      run: less Gemfile
+      run: |
+        less Gemfile
+        ls
     - name: Push data
       run: |
         git config user.name ietf-bib-bot
