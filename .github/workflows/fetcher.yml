@@ -7,10 +7,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  gemfilesgetter: 
-    uses: stefanomunarini/relaton-data-rfcs/.github/workflows/gemfiles-getter.yml@main
+#   gemfilesgetter: 
+#     uses: stefanomunarini/relaton-data-rfcs/.github/workflows/gemfiles-getter.yml@main
   fetch:
-    needs: [gemfilesgetter]
+#     needs: [gemfilesgetter]
     name: rfcsubseries rfc fetching
     runs-on: ubuntu-latest
     steps:
@@ -23,7 +23,7 @@ jobs:
       - name: ls
         run: ls
       - name: bundle add relaton-cli
-        run: bundle add relaton-cli --github 'ietf-ribose/bibxml-service' --ref 'gemfilelock'
+        run: bundle remove relaton-cli & bundle add relaton-cli --github 'ietf-ribose/bibxml-service' --ref 'gemfilelock'
       - name: Install Gems
         run: bundle install
       - name: Verify Gems versions
