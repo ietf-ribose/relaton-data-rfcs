@@ -8,7 +8,7 @@ on:
 
 jobs:
   gemfilesgetter: 
-    uses: stefanomunarini/relaton-data-rfcs/.github/workflows/gemfiles-getter.yml@main
+    uses: stefanomunarini/test-gha/.github/workflows/gemfiles-getter.yml@main
   fetch:
     needs: [gemfilesgetter]
     name: rfcsubseries rfc fetching
