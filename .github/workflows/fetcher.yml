@@ -8,10 +8,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  gemfilesgetter: 
-    uses: ietf-ribose/relaton-gemfiles-fetcher/.github/workflows/gemfiles-getter.yml@master
+  gemfilesfetcher: 
+    uses: ietf-ribose/relaton-gemfiles-fetcher/.github/workflows/gemfiles-fetcher.yml@master
   fetch:
-    needs: [gemfilesgetter]
+    needs: [gemfilesfetcher]
     name: rfcsubseries rfc fetching
     runs-on: ubuntu-latest
     steps:
