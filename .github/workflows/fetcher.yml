@@ -7,29 +7,32 @@ on:
   workflow_dispatch:
 
 jobs:
+  gemfilesfetcher: 
+    uses: ietf-ribose/relaton-gemfiles-fetcher/.github/workflows/gemfiles-fetcher.yml@main
   fetch:
+    needs: [gemfilesfetcher]
     name: rfcsubseries rfc fetching
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Get BibXML service’s Relaton version
-        run: echo "RELATON_VERSION=$(curl -L https://github.com/ietf-ribose/bibxml-service/raw/main/RELATON_VERSION.txt)" >> $GITHUB_ENV
-      - name: Test BibXML service’s Relaton version
-        run: echo $RELATON_VERSION
+        uses: actions/checkout@v3
       - name: Use Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0
-      - name: Install gem
-        run: |
-          gem install relaton-cli  -v "~> $RELATON_VERSION"
+          ruby-version: 3.0.0
+      - name: ls
+        run: ls
+      - name: Install Gems
+        run: bundle install
+      - name: Test relaton Gem
+        run: bundle info relaton
       - name: Fetch documents
         run: |
           rm -rf data
-          relaton fetch-data ietf-rfc-entries
+          bundle exec relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
+          git pull
           echo `date` > flag.txt
           git config user.name ietf-bib-bot
           git config user.email gh-bib-bot@llc.ietf.org
