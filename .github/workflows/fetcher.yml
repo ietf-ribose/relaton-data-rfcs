@@ -32,9 +32,9 @@ jobs:
           bundle exec relaton fetch-data ietf-rfc-entries
       - name: Push data
         run: |
+          git pull
           echo `date` > flag.txt
           git config user.name ietf-bib-bot
           git config user.email gh-bib-bot@llc.ietf.org
           git add data flag.txt
-          git pull
           git diff --quiet && git diff --staged --quiet || (git commit -m 'update documents' && git push)
