@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5062
 title:
 - content: Security Attacks Found Against the Stream Control Transmission Protocol
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ series:
   number: '5062'
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

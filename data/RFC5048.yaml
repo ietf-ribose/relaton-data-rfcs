@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5048
 title:
 - content: Internet Small Computer System Interface (iSCSI) Corrections and Clarifications
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -101,3 +107,5 @@ keyword:
 - content: iscsi protocol
 editorialgroup:
 - name: ips
+ext:
+  schema-version: v1.0.0

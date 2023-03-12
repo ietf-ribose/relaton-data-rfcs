@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2545
 title:
 - content: Use of BGP-4 Multiprotocol Extensions for IPv6 Inter-Domain Routing
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -111,3 +117,5 @@ keyword:
 - content: internet
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

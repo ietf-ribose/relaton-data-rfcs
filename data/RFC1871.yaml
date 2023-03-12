@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1871
 title:
 - content: Addendum to RFC 1602 -- Variance Procedure
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -110,3 +116,5 @@ keyword:
 - content: escape
 - content: clause
 - content: procedures
+ext:
+  schema-version: v1.0.0

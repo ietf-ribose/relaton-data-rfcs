@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5089
 title:
 - content: IS-IS Protocol Extensions for Path Computation Element (PCE) Discovery
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -172,3 +178,5 @@ keyword:
 - content: intermediate system to intermediate system
 editorialgroup:
 - name: pce
+ext:
+  schema-version: v1.0.0

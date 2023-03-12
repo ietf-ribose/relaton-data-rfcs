@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5252
 title:
 - content: OSPF-Based Layer 1 VPN Auto-Discovery
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -110,3 +116,5 @@ keyword:
 - content: layer 1 virtual private network
 editorialgroup:
 - name: l1vpn
+ext:
+  schema-version: v1.0.0

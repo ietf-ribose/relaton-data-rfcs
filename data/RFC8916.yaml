@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8916
 title:
 - content: A YANG Data Model for the Multicast Source Discovery Protocol (MSDP)
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -221,3 +227,5 @@ keyword:
 - content: YANG
 editorialgroup:
 - name: pim
+ext:
+  schema-version: v1.0.0

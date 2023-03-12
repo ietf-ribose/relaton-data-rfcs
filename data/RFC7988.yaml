@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7988
 title:
 - content: Ingress Replication Tunnels in Multicast VPN
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -164,3 +170,5 @@ series:
   number: '7988'
 editorialgroup:
 - name: bess
+ext:
+  schema-version: v1.0.0

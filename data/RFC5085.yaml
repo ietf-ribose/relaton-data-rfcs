@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5085
 title:
 - content: 'Pseudowire Virtual Circuit Connectivity Verification (VCCV): A Control
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: pw
 editorialgroup:
 - name: pwe3
+ext:
+  schema-version: v1.0.0

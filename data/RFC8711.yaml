@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8711
 title:
 - content: Structure of the IETF Administrative Support Activity, Version 2.0
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: IASA2
 editorialgroup:
 - name: iasa2
+ext:
+  schema-version: v1.0.0

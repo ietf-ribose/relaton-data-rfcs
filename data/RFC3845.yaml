@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3845
 title:
 - content: DNS Security (DNSSEC) NextSECure (NSEC) RDATA Format
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -135,3 +141,5 @@ keyword:
 - content: nextsecure
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

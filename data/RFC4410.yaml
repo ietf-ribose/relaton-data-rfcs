@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4410
 title:
 - content: Selectively Reliable Multicast Protocol (SRMP)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: best-effort
 - content: srt
 - content: selectively reliable transport
+ext:
+  schema-version: v1.0.0

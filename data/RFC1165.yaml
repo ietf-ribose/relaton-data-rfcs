@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1165
 title:
 - content: Network Time Protocol (NTP) over the OSI Remote Operations Service
@@ -84,6 +85,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ series:
   number: '1165'
 keyword:
 - content: NTP-OSI
+ext:
+  schema-version: v1.0.0

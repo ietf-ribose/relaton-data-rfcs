@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5037
 title:
 - content: Experience with the Label Distribution Protocol (LDP)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
   number: '5037'
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

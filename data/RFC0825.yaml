@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC825
 title:
 - content: Request for comments on Requests For Comments
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -103,3 +109,5 @@ series:
     content: RFC
     format: text/plain
   number: '825'
+ext:
+  schema-version: v1.0.0

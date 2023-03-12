@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3298
 title:
 - content: Service in the Public Switched Telephone Network/Intelligent Network (PSTN/IN)
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: support
 editorialgroup:
 - name: spirits
+ext:
+  schema-version: v1.0.0

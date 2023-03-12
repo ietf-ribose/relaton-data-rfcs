@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5429
 title:
 - content: 'Sieve Email Filtering: Reject and Extended Reject Extensions'
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -103,3 +109,5 @@ keyword:
 - content: spam
 editorialgroup:
 - name: sieve
+ext:
+  schema-version: v1.0.0

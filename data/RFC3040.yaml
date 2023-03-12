@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3040
 title:
 - content: Internet Web Replication and Caching Taxonomy
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: wide
 editorialgroup:
 - name: wrec
+ext:
+  schema-version: v1.0.0

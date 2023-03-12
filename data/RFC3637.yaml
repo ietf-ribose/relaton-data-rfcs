@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3637
 title:
 - content: Definitions of Managed Objects for the Ethernet WAN Interface Sublayer
@@ -55,6 +56,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -87,3 +93,5 @@ keyword:
 - content: Management Information Base
 editorialgroup:
 - name: hubmib
+ext:
+  schema-version: v1.0.0

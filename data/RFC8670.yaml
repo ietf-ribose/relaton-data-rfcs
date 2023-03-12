@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8670
 title:
 - content: BGP Prefix Segment in Large-Scale Data Centers
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -195,3 +201,5 @@ keyword:
 - content: SRGB
 editorialgroup:
 - name: spring
+ext:
+  schema-version: v1.0.0

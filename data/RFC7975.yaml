@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7975
 title:
 - content: Request Routing Redirection Interface for Content Delivery Network (CDN)
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -112,3 +118,5 @@ keyword:
 - content: DNS
 editorialgroup:
 - name: cdni
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4181
 title:
 - content: Guidelines for Authors and Reviewers of MIB Documents
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: standards-track specifications
 - content: management information base
 - content: review
+ext:
+  schema-version: v1.0.0

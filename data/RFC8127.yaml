@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8127
 title:
 - content: Mobile Access Gateway Configuration Parameters Controlled by the Local
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ keyword:
 - content: Heartbeat
 editorialgroup:
 - name: dmm
+ext:
+  schema-version: v1.0.0

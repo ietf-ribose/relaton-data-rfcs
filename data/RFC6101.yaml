@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6101
 title:
 - content: The Secure Sockets Layer (SSL) Protocol Version 3.0
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
   number: '6101'
 keyword:
 - content: Transport layer security
+ext:
+  schema-version: v1.0.0

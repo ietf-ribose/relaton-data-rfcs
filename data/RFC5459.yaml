@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5459
 title:
 - content: 'G.729.1 RTP Payload Format Update: Discontinuous Transmission (DTX) Support'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ keyword:
 - content: audio codec
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

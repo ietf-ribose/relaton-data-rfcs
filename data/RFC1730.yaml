@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1730
 title:
 - content: Internet Message Access Protocol - Version 4
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -101,3 +107,5 @@ keyword:
 - content: EMail
 editorialgroup:
 - name: imap
+ext:
+  schema-version: v1.0.0

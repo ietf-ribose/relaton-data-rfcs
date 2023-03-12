@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7577
 title:
 - content: Definition of Managed Objects for Battery Monitoring
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: Management Information Base
 editorialgroup:
 - name: eman
+ext:
+  schema-version: v1.0.0

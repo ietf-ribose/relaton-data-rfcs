@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6088
 title:
 - content: Traffic Selectors for Flow Bindings
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ keyword:
 - content: Binary Traffic Selectors
 editorialgroup:
 - name: mext
+ext:
+  schema-version: v1.0.0

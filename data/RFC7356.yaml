@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7356
 title:
 - content: IS-IS Flooding Scope Link State PDUs (LSPs)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ series:
   number: '7356'
 editorialgroup:
 - name: isis
+ext:
+  schema-version: v1.0.0

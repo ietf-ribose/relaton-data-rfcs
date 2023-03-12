@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8318
 title:
 - content: 'IAB, IESG, and IAOC Selection, Confirmation, and Recall Process: IAOC
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -97,3 +103,5 @@ series:
 keyword:
 - content: nomcom
 - content: IAOC
+ext:
+  schema-version: v1.0.0

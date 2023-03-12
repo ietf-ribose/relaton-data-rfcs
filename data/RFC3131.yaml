@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3131
 title:
 - content: 3GPP2-IETF Standardization Collaboration
@@ -224,6 +225,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -252,3 +258,5 @@ keyword:
 - content: force
 - content: third generation
 - content: partnership project
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2997
 title:
 - content: Specification of the Null Service Type
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -142,3 +148,5 @@ keyword:
 - content: Quality of Service
 editorialgroup:
 - name: issll
+ext:
+  schema-version: v1.0.0

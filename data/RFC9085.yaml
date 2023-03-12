@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9085
 title:
 - content: Border Gateway Protocol - Link State (BGP-LS) Extensions for Segment Routing
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -202,3 +208,5 @@ keyword:
 - content: OSPFv3
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

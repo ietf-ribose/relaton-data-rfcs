@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3813
 title:
 - content: Multiprotocol Label Switching (MPLS) Label Switching Router (LSR) Management
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ series:
   number: '3813'
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

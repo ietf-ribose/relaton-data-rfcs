@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8287
 title:
 - content: Label Switched Path (LSP) Ping/Traceroute for Segment Routing (SR) IGP-Prefix
@@ -196,6 +197,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -232,3 +238,5 @@ keyword:
 - content: SR
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

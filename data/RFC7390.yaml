@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7390
 title:
 - content: Group Communication for the Constrained Application Protocol (CoAP)
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -115,3 +121,5 @@ keyword:
 - content: Internet of Things (IoT)
 editorialgroup:
 - name: core
+ext:
+  schema-version: v1.0.0

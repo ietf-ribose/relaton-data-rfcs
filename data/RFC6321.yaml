@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6321
 title:
 - content: 'xCal: The XML Format for iCalendar'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -131,3 +137,5 @@ series:
   number: '6321'
 keyword:
 - content: extensible markup language
+ext:
+  schema-version: v1.0.0

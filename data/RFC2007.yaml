@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2007
 title:
 - content: Catalogue of Network Training Materials
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: TERENA
 editorialgroup:
 - name: trainmat
+ext:
+  schema-version: v1.0.0

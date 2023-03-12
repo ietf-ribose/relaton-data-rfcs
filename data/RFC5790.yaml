@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5790
 title:
 - content: Lightweight Internet Group Management Protocol Version 3 (IGMPv3) and Multicast
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: lightweight
 editorialgroup:
 - name: mboned
+ext:
+  schema-version: v1.0.0

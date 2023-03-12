@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5165
 title:
 - content: A Uniform Resource Name (URN) Namespace for the Open Geospatial Consortium
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: OGC
 - content: URN
 - content: Open Geospatial Consortium
+ext:
+  schema-version: v1.0.0

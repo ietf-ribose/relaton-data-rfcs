@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8198
 title:
 - content: Aggressive Use of DNSSEC-Validated Cache
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -154,3 +160,5 @@ keyword:
 - content: NSEC3
 editorialgroup:
 - name: dnsop
+ext:
+  schema-version: v1.0.0

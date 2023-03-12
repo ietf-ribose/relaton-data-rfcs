@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4455
 title:
 - content: Definition of Managed Objects for Small Computer System Interface (SCSI)
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ keyword:
 - content: scsi-mib
 editorialgroup:
 - name: ips
+ext:
+  schema-version: v1.0.0

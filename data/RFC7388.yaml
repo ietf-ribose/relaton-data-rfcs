@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7388
 title:
 - content: Definition of Managed Objects for IPv6 over Low-Power Wireless Personal
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: SMIv2
 editorialgroup:
 - name: 6lo
+ext:
+  schema-version: v1.0.0

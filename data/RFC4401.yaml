@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4401
 title:
 - content: A Pseudo-Random Function (PRF) API Extension for the Generic Security Service
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: mic
 editorialgroup:
 - name: kitten
+ext:
+  schema-version: v1.0.0

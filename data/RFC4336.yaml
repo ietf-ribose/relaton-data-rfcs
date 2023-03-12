@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4336
 title:
 - content: Problem Statement for the Datagram Congestion Control Protocol (DCCP)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ series:
   number: '4336'
 editorialgroup:
 - name: dccp
+ext:
+  schema-version: v1.0.0

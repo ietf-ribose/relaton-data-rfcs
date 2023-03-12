@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5232
 title:
 - content: 'Sieve Email Filtering: Imap4flags Extension'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: imap keywords
 editorialgroup:
 - name: sieve
+ext:
+  schema-version: v1.0.0

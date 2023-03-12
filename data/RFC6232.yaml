@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6232
 title:
 - content: Purge Originator Identification TLV for IS-IS
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -231,3 +237,5 @@ keyword:
 - content: Purge:y
 editorialgroup:
 - name: isis
+ext:
+  schema-version: v1.0.0

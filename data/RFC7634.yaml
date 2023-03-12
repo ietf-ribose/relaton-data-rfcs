@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7634
 title:
 - content: ChaCha20, Poly1305, and Their Use in the Internet Key Exchange Protocol
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: Salsa
 editorialgroup:
 - name: ipsecme
+ext:
+  schema-version: v1.0.0

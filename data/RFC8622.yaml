@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8622
 title:
 - content: A Lower-Effort Per-Hop Behavior (LE PHB) for Differentiated Services
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -109,3 +115,5 @@ keyword:
 - content: Scavenger Service
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

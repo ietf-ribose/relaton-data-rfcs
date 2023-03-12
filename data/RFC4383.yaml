@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4383
 title:
 - content: The Use of Timed Efficient Stream Loss-Tolerant Authentication (TESLA)
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: broadcast data stream
 editorialgroup:
 - name: msec
+ext:
+  schema-version: v1.0.0

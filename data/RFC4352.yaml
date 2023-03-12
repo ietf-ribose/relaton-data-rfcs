@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4352
 title:
 - content: RTP Payload Format for the Extended Adaptive Multi-Rate Wideband (AMR-WB+)
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: audio signals
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

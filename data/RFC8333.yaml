@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8333
 title:
 - content: Micro-loop Prevention by Introducing a Local Convergence Delay
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ series:
   number: '8333'
 editorialgroup:
 - name: rtgwg
+ext:
+  schema-version: v1.0.0

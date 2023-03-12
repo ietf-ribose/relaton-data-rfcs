@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8204
 title:
 - content: Benchmarking Virtual Switches in the Open Platform for NFV (OPNFV)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ series:
   number: '8204'
 editorialgroup:
 - name: bmwg
+ext:
+  schema-version: v1.0.0

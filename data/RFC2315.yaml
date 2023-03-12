@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2315
 title:
 - content: 'PKCS #7: Cryptographic Message Syntax Version 1.5'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: privacy
 - content: enhanced
 - content: mail
+ext:
+  schema-version: v1.0.0

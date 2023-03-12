@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8050
 title:
 - content: Multi-Threaded Routing Toolkit (MRT) Routing Information Export Format
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -104,3 +110,5 @@ series:
   number: '8050'
 editorialgroup:
 - name: grow
+ext:
+  schema-version: v1.0.0

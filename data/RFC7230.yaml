@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7230
 title:
 - content: 'Hypertext Transfer Protocol (HTTP/1.1): Message Syntax and Routing'
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -151,3 +157,5 @@ keyword:
 - content: HTTP message format
 editorialgroup:
 - name: httpbis
+ext:
+  schema-version: v1.0.0

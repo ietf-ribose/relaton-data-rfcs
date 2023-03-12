@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4341
 title:
 - content: 'Profile for Datagram Congestion Control Protocol (DCCP) Congestion Control
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -111,3 +117,5 @@ keyword:
 - content: additive increase multiplicative decrease
 editorialgroup:
 - name: dccp
+ext:
+  schema-version: v1.0.0

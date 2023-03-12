@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4686
 title:
 - content: Analysis of Threats Motivating DomainKeys Identified Mail (DKIM)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: ssp
 editorialgroup:
 - name: dkim
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5393
 title:
 - content: Addressing an Amplification Vulnerability in Session Initiation Protocol
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -188,3 +194,5 @@ keyword:
 - content: unicast
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

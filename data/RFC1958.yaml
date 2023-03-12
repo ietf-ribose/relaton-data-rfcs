@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1958
 title:
 - content: Architectural Principles of the Internet
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -79,3 +85,5 @@ series:
   number: '1958'
 keyword:
 - content: IAB
+ext:
+  schema-version: v1.0.0

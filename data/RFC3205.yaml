@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3205
 title:
 - content: On the use of HTTP as a Substrate
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -91,3 +97,5 @@ keyword:
 - content: transfer
 - content: protocol
 - content: layering
+ext:
+  schema-version: v1.0.0

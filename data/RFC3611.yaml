@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3611
 title:
 - content: RTP Control Protocol Extended Reports (RTCP XR)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: Extended Report
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9294
 title:
 - content: Application-Specific Link Attributes Advertisement Using the Border Gateway
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -142,3 +148,5 @@ keyword:
 - content: OSPFv3
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

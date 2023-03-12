@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2436
 title:
 - content: Collaboration between ISOC/IETF and ITU-T
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -146,3 +152,5 @@ keyword:
 - content: engineering
 - content: task
 - content: force
+ext:
+  schema-version: v1.0.0

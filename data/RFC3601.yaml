@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3601
 title:
 - content: Text String Notation for Dial Sequences and Global Switched Telephone Network
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -85,3 +91,5 @@ keyword:
 - content: urls
 - content: integrated messaging
 - content: 3gpp
+ext:
+  schema-version: v1.0.0

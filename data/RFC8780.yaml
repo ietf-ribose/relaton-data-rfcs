@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8780
 title:
 - content: The Path Computation Element Communication Protocol (PCEP) Extension for
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -111,3 +117,5 @@ keyword:
 - content: Fixed DWDM Grid
 editorialgroup:
 - name: pce
+ext:
+  schema-version: v1.0.0

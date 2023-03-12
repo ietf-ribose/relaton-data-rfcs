@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5713
 title:
 - content: Security Threats and Security Requirements for the Access Node Control
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: ANCP attacks
 editorialgroup:
 - name: ancp
+ext:
+  schema-version: v1.0.0

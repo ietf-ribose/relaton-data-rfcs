@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8617
 title:
 - content: The Authenticated Received Chain (ARC) Protocol
@@ -137,6 +138,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -176,3 +182,5 @@ keyword:
 - content: email authentication
 editorialgroup:
 - name: dmarc
+ext:
+  schema-version: v1.0.0

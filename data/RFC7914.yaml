@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7914
 title:
 - content: The scrypt Password-Based Key Derivation Function
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -104,3 +110,5 @@ series:
   number: '7914'
 keyword:
 - content: PBKDF
+ext:
+  schema-version: v1.0.0

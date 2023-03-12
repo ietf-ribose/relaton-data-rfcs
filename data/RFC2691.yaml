@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2691
 title:
 - content: A Memorandum of Understanding for an ICANN Protocol Support Organization
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: corporation for assigned names and numbers
 editorialgroup:
 - name: Poisson
+ext:
+  schema-version: v1.0.0

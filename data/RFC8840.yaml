@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8840
 title:
 - content: A Session Initiation Protocol (SIP) Usage for Incremental Provisioning
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -176,3 +182,5 @@ keyword:
 - content: NAT
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

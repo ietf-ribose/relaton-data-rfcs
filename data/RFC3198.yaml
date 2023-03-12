@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3198
 title:
 - content: Terminology for Policy-Based Management
@@ -311,6 +312,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -344,3 +350,5 @@ keyword:
 - content: documents
 editorialgroup:
 - name: policy
+ext:
+  schema-version: v1.0.0

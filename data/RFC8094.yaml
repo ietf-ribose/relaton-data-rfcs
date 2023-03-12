@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8094
 title:
 - content: DNS over Datagram Transport Layer Security (DTLS)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -136,3 +142,5 @@ series:
   number: '8094'
 editorialgroup:
 - name: dprive
+ext:
+  schema-version: v1.0.0

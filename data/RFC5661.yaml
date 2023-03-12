@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5661
 title:
 - content: Network File System (NFS) Version 4 Minor Version 1 Protocol
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -166,3 +172,5 @@ keyword:
 - content: Storage Cluster
 editorialgroup:
 - name: nfsv4
+ext:
+  schema-version: v1.0.0

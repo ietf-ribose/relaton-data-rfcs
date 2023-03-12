@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9273
 title:
 - content: 'Network Coding for Content-Centric Networking / Named Data Networking:
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: NDN
 - content: network coding
 - content: in-network cache
+ext:
+  schema-version: v1.0.0

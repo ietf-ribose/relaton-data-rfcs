@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC926
 title:
 - content: Protocol for providing the connectionless mode network services
@@ -26,6 +27,11 @@ contributor:
       content: ISO
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -63,3 +69,5 @@ series:
     content: RFC
     format: text/plain
   number: '926'
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5976
 title:
 - content: 'Y.1541-QOSM: Model for Networks Using Y.1541 Quality-of-Service Classes'
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -225,3 +231,5 @@ keyword:
 - content: qspec
 editorialgroup:
 - name: nsis
+ext:
+  schema-version: v1.0.0

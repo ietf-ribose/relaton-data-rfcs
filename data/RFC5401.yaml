@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5401
 title:
 - content: Multicast Negative-Acknowledgment (NACK) Building Blocks
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -166,3 +172,5 @@ series:
   number: '5401'
 editorialgroup:
 - name: rmt
+ext:
+  schema-version: v1.0.0

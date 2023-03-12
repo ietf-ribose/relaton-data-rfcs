@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1717
 title:
 - content: The PPP Multilink Protocol (MP)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -171,3 +177,5 @@ series:
   number: '1717'
 keyword:
 - content: Point
+ext:
+  schema-version: v1.0.0

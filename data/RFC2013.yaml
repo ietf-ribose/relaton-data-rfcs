@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2013
 title:
 - content: SNMPv2 Management Information Base for the User Datagram Protocol using
@@ -49,6 +50,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -103,3 +109,5 @@ keyword:
 - content: UDP
 editorialgroup:
 - name: snmpv2
+ext:
+  schema-version: v1.0.0

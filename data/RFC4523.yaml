@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4523
 title:
 - content: Lightweight Directory Access Protocol (LDAP) Schema Definitions for X.509
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: x.500
 - content: syntax
 - content: pkix
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8513
 title:
 - content: A YANG Data Model for Dual-Stack Lite (DS-Lite)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: IPv4 over IPv6
 editorialgroup:
 - name: softwire
+ext:
+  schema-version: v1.0.0

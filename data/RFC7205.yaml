@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7205
 title:
 - content: Use Cases for Telepresence Multistreams
@@ -137,6 +138,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ series:
   number: '7205'
 editorialgroup:
 - name: clue
+ext:
+  schema-version: v1.0.0

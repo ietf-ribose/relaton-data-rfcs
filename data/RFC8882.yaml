@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8882
 title:
 - content: DNS-Based Service Discovery (DNS-SD) Privacy and Security Requirements
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -109,3 +115,5 @@ keyword:
 - content: mDNS
 editorialgroup:
 - name: dnssd
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1021
 title:
 - content: High-level Entity Management System (HEMS)
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -103,3 +109,5 @@ series:
   number: '1021'
 keyword:
 - content: HEMS
+ext:
+  schema-version: v1.0.0

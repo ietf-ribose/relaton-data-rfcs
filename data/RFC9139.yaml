@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9139
 title:
 - content: Information-Centric Networking (ICN) Adaptation to Low-Power Wireless Personal
@@ -196,6 +197,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -237,3 +243,5 @@ keyword:
 - content: fragmentation
 - content: 6LoWPAN
 - content: Internet of Things (IoT)
+ext:
+  schema-version: v1.0.0

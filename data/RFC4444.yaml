@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4444
 title:
 - content: Management Information Base for Intermediate System to Intermediate System
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: isis-mib
 editorialgroup:
 - name: isis
+ext:
+  schema-version: v1.0.0

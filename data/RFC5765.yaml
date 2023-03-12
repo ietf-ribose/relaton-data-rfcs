@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5765
 title:
 - content: Security Issues and Solutions in Peer-to-Peer Systems for Realtime Communications
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: overlay
 - content: rtc
 - content: voip
+ext:
+  schema-version: v1.0.0

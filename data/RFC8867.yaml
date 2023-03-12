@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8867
 title:
 - content: Test Cases for Evaluating Congestion Control for Interactive Real-Time
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: Congestion Control
 editorialgroup:
 - name: rmcat
+ext:
+  schema-version: v1.0.0

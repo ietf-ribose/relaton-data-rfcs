@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4016
 title:
 - content: Protocol for Carrying Authentication and Network Access (PANA) Threat Analysis
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ keyword:
 - content: network access
 editorialgroup:
 - name: pana
+ext:
+  schema-version: v1.0.0

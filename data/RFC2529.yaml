@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2529
 title:
 - content: Transmission of IPv6 over IPv4 Domains without Explicit Tunnels
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ keyword:
 - content: ip
 editorialgroup:
 - name: ipngwg
+ext:
+  schema-version: v1.0.0

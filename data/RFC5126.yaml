@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5126
 title:
 - content: CMS Advanced Electronic Signatures (CAdES)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -149,3 +155,5 @@ keyword:
 - content: data
 editorialgroup:
 - name: smime
+ext:
+  schema-version: v1.0.0

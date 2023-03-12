@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1445
 title:
 - content: Administrative Model for version 2 of the Simple Network Management Protocol
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: Framework
 editorialgroup:
 - name: snmpsec
+ext:
+  schema-version: v1.0.0

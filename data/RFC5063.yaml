@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5063
 title:
 - content: Extensions to GMPLS Resource Reservation Protocol (RSVP) Graceful Restart
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,3 +149,5 @@ keyword:
 - content: state recovery
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7700
 title:
 - content: Preparation, Enforcement, and Comparison of Internationalized Strings Representing
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -94,3 +100,5 @@ keyword:
 - content: chatrooms
 editorialgroup:
 - name: precis
+ext:
+  schema-version: v1.0.0

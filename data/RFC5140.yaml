@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5140
 title:
 - content: A Telephony Gateway REgistration Protocol (TGREP)
@@ -171,6 +172,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -208,3 +214,5 @@ keyword:
 - content: itad
 editorialgroup:
 - name: iptel
+ext:
+  schema-version: v1.0.0

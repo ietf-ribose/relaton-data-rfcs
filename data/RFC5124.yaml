@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5124
 title:
 - content: Extended Secure RTP Profile for Real-time Transport Control Protocol (RTCP)-Based
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: rtp communication
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

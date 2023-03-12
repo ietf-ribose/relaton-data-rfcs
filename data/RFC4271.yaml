@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4271
 title:
 - content: A Border Gateway Protocol 4 (BGP-4)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: routing
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

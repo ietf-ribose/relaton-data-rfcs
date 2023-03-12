@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7775
 title:
 - content: IS-IS Route Preference for Extended IP and IPv6 Reachability
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ series:
   number: '7775'
 editorialgroup:
 - name: isis
+ext:
+  schema-version: v1.0.0

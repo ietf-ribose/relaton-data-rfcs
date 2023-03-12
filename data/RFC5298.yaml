@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5298
 title:
 - content: Analysis of Inter-Domain Label Switched Path (LSP) Recovery
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -173,3 +179,5 @@ keyword:
 - content: end-to-end diverse Traffic Engineering LSPs
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2680
 title:
 - content: A One-way Packet Loss Metric for IPPM
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: internet protocol performance metrics
 editorialgroup:
 - name: ippm
+ext:
+  schema-version: v1.0.0

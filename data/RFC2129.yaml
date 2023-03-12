@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2129
 title:
 - content: Toshiba's Flow Attribute Notification Protocol (FANP) Specification
@@ -224,6 +225,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -252,3 +258,5 @@ keyword:
 - content: flow
 - content: datalink
 - content: mapping
+ext:
+  schema-version: v1.0.0

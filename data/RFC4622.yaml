@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4622
 title:
 - content: Internationalized Resource Identifiers (IRIs) and Uniform Resource Identifiers
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,3 +99,5 @@ keyword:
 - content: xmpp
 - content: iri
 - content: uri
+ext:
+  schema-version: v1.0.0

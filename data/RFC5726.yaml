@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5726
 title:
 - content: Mobile IPv6 Location Privacy Solutions
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ series:
   number: '5726'
 keyword:
 - content: mobopts
+ext:
+  schema-version: v1.0.0

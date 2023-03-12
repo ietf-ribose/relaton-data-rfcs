@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3428
 title:
 - content: Session Initiation Protocol (SIP) Extension for Instant Messaging
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -205,3 +211,5 @@ keyword:
 - content: message method
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

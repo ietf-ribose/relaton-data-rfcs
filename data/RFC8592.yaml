@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8592
 title:
 - content: Key Performance Indicator (KPI) Stamping for the Network Service Header
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: Timestamping
 - content: QoS
 - content: service chain
+ext:
+  schema-version: v1.0.0

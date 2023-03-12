@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7384
 title:
 - content: Security Requirements of Time Protocols in Packet Switched Networks
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -83,3 +89,5 @@ keyword:
 - content: network time protocol
 editorialgroup:
 - name: tictoc
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC996
 title:
 - content: Statistics server
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ series:
   number: '996'
 keyword:
 - content: STATSRV
+ext:
+  schema-version: v1.0.0

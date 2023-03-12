@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3582
 title:
 - content: Goals for IPv6 Site-Multihoming Architectures
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: multi6
 editorialgroup:
 - name: multi6
+ext:
+  schema-version: v1.0.0

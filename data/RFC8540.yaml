@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8540
 title:
 - content: 'Stream Control Transmission Protocol: Errata and Issues in RFC 4960'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ series:
   number: '8540'
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

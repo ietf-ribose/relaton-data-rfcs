@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4503
 title:
 - content: A Description of the Rabbit Stream Cipher Algorithm
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: iv
 - content: initialization vector
 - content: encryption algorithm
+ext:
+  schema-version: v1.0.0

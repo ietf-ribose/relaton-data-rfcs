@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4673
 title:
 - content: RADIUS Dynamic Authorization Server MIB
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ keyword:
 - content: RADIUS-DYNAUTH-SERVER-MIB
 editorialgroup:
 - name: radext
+ext:
+  schema-version: v1.0.0

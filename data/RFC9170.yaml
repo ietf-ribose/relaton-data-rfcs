@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9170
 title:
 - content: Long-Term Viability of Protocol Extension Mechanisms
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -107,3 +113,5 @@ keyword:
 - content: Extensions
 - content: versions
 - content: grease
+ext:
+  schema-version: v1.0.0

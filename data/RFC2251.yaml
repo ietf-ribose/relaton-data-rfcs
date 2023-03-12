@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2251
 title:
 - content: Lightweight Directory Access Protocol (v3)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -177,3 +183,5 @@ keyword:
 - content: x.500
 editorialgroup:
 - name: asid
+ext:
+  schema-version: v1.0.0

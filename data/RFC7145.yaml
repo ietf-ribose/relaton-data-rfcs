@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7145
 title:
 - content: Internet Small Computer System Interface (iSCSI) Extensions for the Remote
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ series:
   number: '7145'
 editorialgroup:
 - name: storm
+ext:
+  schema-version: v1.0.0

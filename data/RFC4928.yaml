@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4928
 title:
 - content: Avoiding Equal Cost Multipath Treatment in MPLS Networks
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: ecmp
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

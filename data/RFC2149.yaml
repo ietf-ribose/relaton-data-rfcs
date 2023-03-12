@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2149
 title:
 - content: Multicast Server Architectures for MARS-based ATM multicasting
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ series:
   number: '2149'
 editorialgroup:
 - name: ion
+ext:
+  schema-version: v1.0.0

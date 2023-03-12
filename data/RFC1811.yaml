@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1811
 title:
 - content: U.S. Government Internet Domain Names
@@ -26,6 +27,11 @@ contributor:
       content: FNC
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -65,3 +71,5 @@ keyword:
 - content: GOV
 - content: FNC
 - content: IANA
+ext:
+  schema-version: v1.0.0

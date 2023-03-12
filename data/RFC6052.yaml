@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6052
 title:
 - content: IPv6 Addressing of IPv4/IPv6 Translators
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -214,3 +220,5 @@ keyword:
 - content: stateful
 editorialgroup:
 - name: behave
+ext:
+  schema-version: v1.0.0

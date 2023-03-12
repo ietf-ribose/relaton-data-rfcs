@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9152
 title:
 - content: 'Secure Object Delivery Protocol (SODP) Server Interfaces: NSA''s Profile
@@ -81,6 +82,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -116,3 +122,5 @@ series:
 keyword:
 - content: CNSA
 - content: NSS
+ext:
+  schema-version: v1.0.0

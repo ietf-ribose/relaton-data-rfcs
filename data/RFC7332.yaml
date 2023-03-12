@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7332
 title:
 - content: Loop Detection Mechanisms for Session Initiation Protocol (SIP) Back-to-Back
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ series:
   number: '7332'
 editorialgroup:
 - name: straw
+ext:
+  schema-version: v1.0.0

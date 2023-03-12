@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2826
 title:
 - content: IAB Technical Comment on the Unique DNS Root
@@ -26,6 +27,11 @@ contributor:
       content: IAB
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -58,3 +64,5 @@ keyword:
 - content: Internet Architecture Board
 - content: domain name
 - content: system
+ext:
+  schema-version: v1.0.0

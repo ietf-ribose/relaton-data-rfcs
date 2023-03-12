@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3337
 title:
 - content: Class Extensions for PPP over Asynchronous Transfer Mode Adaptation Layer
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -131,3 +137,5 @@ keyword:
 - content: encapsulation
 editorialgroup:
 - name: pppext
+ext:
+  schema-version: v1.0.0

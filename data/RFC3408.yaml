@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3408
 title:
 - content: Zero-byte Support for Bidirectional Reliable Mode (R-mode) in Extended
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -115,3 +121,5 @@ keyword:
 - content: packet size
 editorialgroup:
 - name: rohc
+ext:
+  schema-version: v1.0.0

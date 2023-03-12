@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7540
 title:
 - content: Hypertext Transfer Protocol Version 2 (HTTP/2)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -151,3 +157,5 @@ keyword:
 - content: Web
 editorialgroup:
 - name: httpbis
+ext:
+  schema-version: v1.0.0

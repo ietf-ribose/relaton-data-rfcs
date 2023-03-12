@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7075
 title:
 - content: Realm-Based Redirection In Diameter
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -153,3 +159,5 @@ keyword:
 - content: routing
 editorialgroup:
 - name: dime
+ext:
+  schema-version: v1.0.0

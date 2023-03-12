@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7801
 title:
 - content: 'GOST R 34.12-2015: Block Cipher "Kuznyechik"'
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -77,3 +83,5 @@ series:
 keyword:
 - content: Kuznyechik
 - content: Block Cipher
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3047
 title:
 - content: RTP Payload Format for ITU-T Recommendation G.722.1
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -90,3 +96,5 @@ keyword:
 - content: real-time transport protocol
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

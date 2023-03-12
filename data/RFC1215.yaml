@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1215
 title:
 - content: Convention for defining traps for use with the SNMP
@@ -55,6 +56,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: SNMP-TRAPS
 editorialgroup:
 - name: snmp
+ext:
+  schema-version: v1.0.0

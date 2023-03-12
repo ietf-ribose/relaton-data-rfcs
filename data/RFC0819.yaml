@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC819
 title:
 - content: The Domain Naming Convention for Internet User Applications
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -101,3 +107,5 @@ series:
     content: RFC
     format: text/plain
   number: '819'
+ext:
+  schema-version: v1.0.0

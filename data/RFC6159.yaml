@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6159
 title:
 - content: Session-Specific Explicit Diameter Request Routing
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ series:
   number: '6159'
 keyword:
 - content: Diameter routing
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4923
 title:
 - content: Quality of Service (QoS) Signaling in a Nested Virtual Private Network
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -112,3 +118,5 @@ keyword:
 - content: integrated services
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

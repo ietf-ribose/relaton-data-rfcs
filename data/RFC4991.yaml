@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4991
 title:
 - content: A Common Schema for Internet Registry Information Service Transfer Protocols
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -78,3 +84,5 @@ keyword:
 - content: xml
 editorialgroup:
 - name: crisp
+ext:
+  schema-version: v1.0.0

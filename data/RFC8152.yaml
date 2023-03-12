@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8152
 title:
 - content: CBOR Object Signing and Encryption (COSE)
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -103,3 +109,5 @@ keyword:
 - content: Elliptic Curve
 editorialgroup:
 - name: cose
+ext:
+  schema-version: v1.0.0

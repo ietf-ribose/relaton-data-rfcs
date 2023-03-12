@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4328
 title:
 - content: Generalized Multi-Protocol Label Switching (GMPLS) Signaling Extensions
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -91,3 +97,5 @@ keyword:
 - content: pre-otn
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

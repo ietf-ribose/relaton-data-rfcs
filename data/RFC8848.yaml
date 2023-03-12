@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8848
 title:
 - content: Session Signaling for Controlling Multiple Streams for Telepresence (CLUE)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ series:
   number: '8848'
 editorialgroup:
 - name: clue
+ext:
+  schema-version: v1.0.0

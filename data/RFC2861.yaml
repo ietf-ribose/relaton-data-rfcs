@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2861
 title:
 - content: TCP Congestion Window Validation
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ keyword:
 - content: transmission control protocol
 editorialgroup:
 - name: tsvwg
+ext:
+  schema-version: v1.0.0

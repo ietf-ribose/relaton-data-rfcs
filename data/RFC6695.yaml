@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6695
 title:
 - content: Methods to Convey Forward Error Correction (FEC) Framework Configuration
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ series:
   number: '6695'
 editorialgroup:
 - name: fecframe
+ext:
+  schema-version: v1.0.0

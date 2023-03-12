@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4440
 title:
 - content: IAB Thoughts on the Role of the Internet Research Task Force (IRTF)
@@ -115,6 +116,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ series:
   number: '4440'
 keyword:
 - content: internet architecture board
+ext:
+  schema-version: v1.0.0

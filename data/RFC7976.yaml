@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7976
 title:
 - content: Updates to Private Header (P-Header) Extension Usage in Session Initiation
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: P-
 - content: 3GPP
 - content: IMS
+ext:
+  schema-version: v1.0.0

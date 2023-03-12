@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7090
 title:
 - content: Public Safety Answering Point (PSAP) Callback
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -181,3 +187,5 @@ keyword:
 - content: VoIP
 editorialgroup:
 - name: ecrit
+ext:
+  schema-version: v1.0.0

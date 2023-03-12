@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5950
 title:
 - content: Network Management Framework for MPLS-based Transport Networks
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: network management framework
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

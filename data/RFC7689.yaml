@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7689
 title:
 - content: Signaling Extensions for Wavelength Switched Optical Networks
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ series:
   number: '7689'
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

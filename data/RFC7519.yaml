@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7519
 title:
 - content: JSON Web Token (JWT)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -153,3 +159,5 @@ keyword:
 - content: JWA
 editorialgroup:
 - name: oauth
+ext:
+  schema-version: v1.0.0

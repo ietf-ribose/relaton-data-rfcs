@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3755
 title:
 - content: Legacy Resolver Compatibility for Delegation Signer (DS)
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -140,3 +146,5 @@ keyword:
 - content: nextsecure
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

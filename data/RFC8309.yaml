@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8309
 title:
 - content: Service Models Explained
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ keyword:
 - content: Service Orchestrator
 editorialgroup:
 - name: opsawg
+ext:
+  schema-version: v1.0.0

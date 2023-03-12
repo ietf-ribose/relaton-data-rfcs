@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1171
 title:
 - content: Point-to-Point Protocol for the transmission of multi-protocol datagrams
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -87,3 +93,5 @@ series:
   number: '1171'
 editorialgroup:
 - name: ppp
+ext:
+  schema-version: v1.0.0

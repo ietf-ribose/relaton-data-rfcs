@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6896
 title:
 - content: 'SCS: KoanLogic''s Secure Cookie Sessions for HTTP'
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -139,3 +145,5 @@ series:
   number: '6896'
 keyword:
 - content: HTTP Secure Cookies
+ext:
+  schema-version: v1.0.0

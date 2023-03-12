@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6420
 title:
 - content: PIM Multi-Topology ID (MT-ID) Join Attribute
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -103,3 +109,5 @@ series:
   number: '6420'
 editorialgroup:
 - name: pim
+ext:
+  schema-version: v1.0.0

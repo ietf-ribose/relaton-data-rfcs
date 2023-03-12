@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6513
 title:
 - content: Multicast in MPLS/BGP IP VPNs
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -104,3 +110,5 @@ series:
   number: '6513'
 editorialgroup:
 - name: l3vpn
+ext:
+  schema-version: v1.0.0

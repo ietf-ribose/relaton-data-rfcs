@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8829
 title:
 - content: JavaScript Session Establishment Protocol (JSEP)
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: answer
 editorialgroup:
 - name: rtcweb
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6944
 title:
 - content: 'Applicability Statement: DNS Security (DNSSEC) DNSKEY Algorithm Implementation
@@ -49,6 +50,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -172,3 +178,5 @@ series:
   number: '6944'
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

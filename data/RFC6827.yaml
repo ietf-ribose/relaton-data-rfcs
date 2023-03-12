@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6827
 title:
 - content: Automatically Switched Optical Network (ASON) Routing for OSPFv2 Protocols
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -156,3 +162,5 @@ series:
   number: '6827'
 editorialgroup:
 - name: ccamp
+ext:
+  schema-version: v1.0.0

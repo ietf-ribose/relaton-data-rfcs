@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8425
 title:
 - content: IANA Considerations for IPv6 Neighbor Discovery Prefix Information Option
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ series:
   number: '8425'
 editorialgroup:
 - name: 6man
+ext:
+  schema-version: v1.0.0

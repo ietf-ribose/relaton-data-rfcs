@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3947
 title:
 - content: Negotiation of NAT-Traversal in the IKE
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -164,3 +170,5 @@ keyword:
 - content: Internet Key Exchange
 editorialgroup:
 - name: ipsec
+ext:
+  schema-version: v1.0.0

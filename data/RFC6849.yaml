@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6849
 title:
 - content: An Extension to the Session Description Protocol (SDP) and Real-time Transport
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -211,3 +217,5 @@ keyword:
 - content: voip
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

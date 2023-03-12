@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5430
 title:
 - content: Suite B Profile for Transport Layer Security (TLS)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -147,3 +153,5 @@ series:
   number: '5430'
 keyword:
 - content: nsa suite b cryptography
+ext:
+  schema-version: v1.0.0

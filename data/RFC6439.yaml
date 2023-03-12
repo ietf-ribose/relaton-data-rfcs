@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6439
 title:
 - content: 'Routing Bridges (RBridges): Appointed Forwarders'
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -225,3 +231,5 @@ keyword:
 - content: TRansparent Interconnection of Lots of Links
 editorialgroup:
 - name: trill
+ext:
+  schema-version: v1.0.0

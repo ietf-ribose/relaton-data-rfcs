@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1590
 title:
 - content: Media Type Registration Procedure
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -141,3 +147,5 @@ series:
 keyword:
 - content: email
 - content: multimedia
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4481
 title:
 - content: Timed Presence Extensions to the Presence Information Data Format (PIDF)
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -62,7 +68,7 @@ script:
 abstract:
 - content: "<p>The Presence Information Data Format (PIDF) defines a basic XML format
     for presenting presence information for a presentity.  This document extends PIDF,
-    adding a timed status extension ( element) that allows a presentity to declare
+    adding a timed status extension (  element) that allows a presentity to declare
     its status for a time interval fully in the future or the past. [STANDARDS-TRACK]</p>"
   language:
   - en
@@ -76,3 +82,5 @@ series:
   number: '4481'
 editorialgroup:
 - name: simple
+ext:
+  schema-version: v1.0.0

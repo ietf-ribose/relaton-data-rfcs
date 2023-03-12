@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3098
 title:
 - content: How to Advertise Responsibly Using E-Mail and Newsgroups or - how NOT to
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: isps
 editorialgroup:
 - name: run
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7734
 title:
 - content: Support for Shortest Path Bridging MAC Mode over Ethernet VPN (EVPN)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: PBB-EVPN
 editorialgroup:
 - name: bess
+ext:
+  schema-version: v1.0.0

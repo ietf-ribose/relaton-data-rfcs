@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2341
 title:
 - content: Cisco Layer Two Forwarding (Protocol) "L2F"
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: tunneling
 - content: dial-up
 - content: network
+ext:
+  schema-version: v1.0.0

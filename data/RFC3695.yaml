@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3695
 title:
 - content: Compact Forward Error Correction (FEC) Schemes
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -132,3 +138,5 @@ keyword:
 - content: schemes
 editorialgroup:
 - name: rmt
+ext:
+  schema-version: v1.0.0

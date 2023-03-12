@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3682
 title:
 - content: The Generalized TTL Security Mechanism (GTSM)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -152,3 +158,5 @@ series:
 keyword:
 - content: time to live
 - content: packet hop limit
+ext:
+  schema-version: v1.0.0

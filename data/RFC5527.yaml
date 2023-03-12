@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5527
 title:
 - content: Combined User and Infrastructure ENUM in the e164.arpa Tree
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: e164.arpa
 editorialgroup:
 - name: enum
+ext:
+  schema-version: v1.0.0

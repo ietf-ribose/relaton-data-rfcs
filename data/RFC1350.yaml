@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1350
 title:
 - content: The TFTP Protocol (Revision 2)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -84,3 +90,5 @@ keyword:
 - content: file
 - content: transfer
 - content: booting
+ext:
+  schema-version: v1.0.0

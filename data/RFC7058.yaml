@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7058
 title:
 - content: Media Control Channel Framework (CFW) Call Flow Examples
@@ -142,6 +143,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -171,3 +177,5 @@ keyword:
 - content: Media Control Channel Framework
 editorialgroup:
 - name: mediactrl
+ext:
+  schema-version: v1.0.0

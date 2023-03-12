@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7156
 title:
 - content: Diameter Support for Proxy Mobile IPv6 Localized Routing
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ series:
   number: '7156'
 editorialgroup:
 - name: dime
+ext:
+  schema-version: v1.0.0

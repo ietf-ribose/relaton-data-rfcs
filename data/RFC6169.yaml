@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6169
 title:
 - content: Security Concerns with IP Tunneling
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ series:
   number: '6169'
 editorialgroup:
 - name: v6ops
+ext:
+  schema-version: v1.0.0

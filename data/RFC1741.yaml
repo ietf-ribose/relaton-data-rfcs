@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1741
 title:
 - content: MIME Content Type for BinHex Encoded Files
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -136,3 +142,5 @@ keyword:
 - content: Internet
 - content: Mail
 - content: Extensions
+ext:
+  schema-version: v1.0.0

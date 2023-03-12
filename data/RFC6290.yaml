@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6290
 title:
 - content: A Quick Crash Detection Method for the Internet Key Exchange Protocol (IKE)
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -167,3 +173,5 @@ keyword:
 - content: QCD
 editorialgroup:
 - name: ipsecme
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6047
 title:
 - content: iCalendar Message-Based Interoperability Protocol (iMIP)
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -84,3 +90,5 @@ keyword:
 - content: iCalendar Object Model
 editorialgroup:
 - name: calsify
+ext:
+  schema-version: v1.0.0

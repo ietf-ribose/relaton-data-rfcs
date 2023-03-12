@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3352
 title:
 - content: Connection-less Lightweight Directory Access Protocol (CLDAP) to Historic
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -72,3 +78,5 @@ keyword:
 - content: Application
 - content: Entity
 - content: Title
+ext:
+  schema-version: v1.0.0

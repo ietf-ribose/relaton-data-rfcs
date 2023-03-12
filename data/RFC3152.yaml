@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3152
 title:
 - content: Delegation of IP6.ARPA
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -146,3 +152,5 @@ keyword:
 - content: system
 - content: DNS
 - content: zone
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4197
 title:
 - content: Requirements for Edge-to-Edge Emulation of Time Division Multiplexed (TDM)
@@ -51,6 +52,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ keyword:
 - content: pseudo wire emulation
 editorialgroup:
 - name: pwe3
+ext:
+  schema-version: v1.0.0

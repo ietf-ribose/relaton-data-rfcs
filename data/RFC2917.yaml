@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2917
 title:
 - content: A Core MPLS IP VPN Architecture
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ keyword:
 - content: internet protocol
 - content: virtual private networks
 - content: multiprotocol label switching
+ext:
+  schema-version: v1.0.0

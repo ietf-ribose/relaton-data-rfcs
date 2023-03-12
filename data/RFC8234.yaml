@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8234
 title:
 - content: Updates to MPLS Transport Profile (MPLS-TP) Linear Protection in Automatic
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -209,3 +215,5 @@ keyword:
 - content: mpls-tp linear protection
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

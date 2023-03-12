@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4053
 title:
 - content: Procedures for Handling Liaison Statements to and from the IETF
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -143,4 +149,6 @@ series:
   number: '4053'
 keyword:
 - content: sdo
-- content: standards develoopment organization
+- content: standards development organization
+ext:
+  schema-version: v1.0.0

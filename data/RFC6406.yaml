@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6406
 title:
 - content: Session PEERing for Multimedia INTerconnect (SPEERMINT) Architecture
@@ -79,6 +80,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ series:
   number: '6406'
 editorialgroup:
 - name: speermint
+ext:
+  schema-version: v1.0.0

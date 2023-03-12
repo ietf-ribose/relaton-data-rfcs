@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8466
 title:
 - content: A YANG Data Model for Layer 2 Virtual Private Network (L2VPN) Service Delivery
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -174,3 +180,5 @@ keyword:
 - content: L2VPN Service Model
 editorialgroup:
 - name: l2sm
+ext:
+  schema-version: v1.0.0

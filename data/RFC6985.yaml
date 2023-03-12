@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6985
 title:
 - content: 'IMIX Genome: Specification of Variable Packet Sizes for Additional Testing'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -87,3 +93,5 @@ keyword:
 - content: Benchmarking
 editorialgroup:
 - name: bmwg
+ext:
+  schema-version: v1.0.0

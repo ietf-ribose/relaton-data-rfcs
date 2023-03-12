@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1336
 title:
 - content: 'Who''s Who in the Internet: Biographies of IAB, IESG and IRSG Members'
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -103,3 +109,5 @@ keyword:
 - content: Schwartz
 - content: Stockman
 - content: Vaudreuil
+ext:
+  schema-version: v1.0.0

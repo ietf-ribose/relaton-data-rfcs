@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2615
 title:
 - content: PPP over SONET/SDH
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ keyword:
 - content: synchronous digital hierarchy
 editorialgroup:
 - name: pppext
+ext:
+  schema-version: v1.0.0

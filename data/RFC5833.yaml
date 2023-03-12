@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5833
 title:
 - content: Control and Provisioning of Wireless Access Points (CAPWAP) Protocol Base
@@ -138,6 +139,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -168,3 +174,5 @@ keyword:
 - content: CAPWAP-BASE-MIB
 editorialgroup:
 - name: capwap
+ext:
+  schema-version: v1.0.0

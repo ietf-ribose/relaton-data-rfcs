@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9021
 title:
 - content: Use of the Walnut Digital Signature Algorithm with CBOR Object Signing
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -84,3 +90,5 @@ series:
 keyword:
 - content: COSE
 - content: WalnutDSA
+ext:
+  schema-version: v1.0.0

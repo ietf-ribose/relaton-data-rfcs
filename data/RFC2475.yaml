@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2475
 title:
 - content: An Architecture for Differentiated Services
@@ -195,6 +196,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -226,3 +232,5 @@ keyword:
 - content: architecture
 editorialgroup:
 - name: diffserv
+ext:
+  schema-version: v1.0.0

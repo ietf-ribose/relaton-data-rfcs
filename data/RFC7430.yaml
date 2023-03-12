@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7430
 title:
 - content: Analysis of Residual Threats and Possible Fixes for Multipath TCP (MPTCP)
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -193,3 +199,5 @@ keyword:
 - content: threat analysis
 editorialgroup:
 - name: mptcp
+ext:
+  schema-version: v1.0.0

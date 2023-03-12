@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4759
 title:
 - content: The ENUM Dip Indicator Parameter for the "tel" URI
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: telephone number
 editorialgroup:
 - name: iptel
+ext:
+  schema-version: v1.0.0

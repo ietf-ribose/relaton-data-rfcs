@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9117
 title:
 - content: Revised Validation Procedure for BGP Flow Specifications
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -217,3 +223,5 @@ keyword:
 - content: BGP flowspec
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4162
 title:
 - content: Addition of SEED Cipher Suites to Transport Layer Security (TLS)
@@ -123,6 +124,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -148,3 +154,5 @@ series:
 keyword:
 - content: encryption algorithm
 - content: ciphersuite
+ext:
+  schema-version: v1.0.0

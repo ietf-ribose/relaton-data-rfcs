@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5456
 title:
 - content: 'IAX: Inter-Asterisk eXchange Version 2'
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -205,3 +211,5 @@ keyword:
 - content: pbx
 - content: voip
 - content: voice over internet protocol
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5977
 title:
 - content: 'RMD-QOSM: The NSIS Quality-of-Service Model for Resource Management in
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -203,3 +209,5 @@ keyword:
 - content: resource managment in diffserv
 editorialgroup:
 - name: nsis
+ext:
+  schema-version: v1.0.0

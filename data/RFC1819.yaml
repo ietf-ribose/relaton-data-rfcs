@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1819
 title:
 - content: Internet Stream Protocol Version 2 (ST2) Protocol Specification - Version
@@ -80,6 +81,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -106,3 +112,5 @@ keyword:
 - content: ST2
 editorialgroup:
 - name: st2
+ext:
+  schema-version: v1.0.0

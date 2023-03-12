@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8396
 title:
 - content: 'Managing, Ordering, Distributing, Exposing, and Registering Telephone
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ keyword:
 - content: Real-Time Communication
 editorialgroup:
 - name: modern
+ext:
+  schema-version: v1.0.0

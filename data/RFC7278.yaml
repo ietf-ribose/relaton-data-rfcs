@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7278
 title:
 - content: Extending an IPv6 /64 Prefix from a Third Generation Partnership Project
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -133,3 +139,5 @@ series:
   number: '7278'
 editorialgroup:
 - name: v6ops
+ext:
+  schema-version: v1.0.0

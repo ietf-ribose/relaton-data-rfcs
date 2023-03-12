@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2016
 title:
 - content: Uniform Resource Agents (URAs)
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -190,3 +196,5 @@ series:
   number: '2016'
 keyword:
 - content: URAS
+ext:
+  schema-version: v1.0.0

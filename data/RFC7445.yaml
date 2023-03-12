@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7445
 title:
 - content: Analysis of Failure Cases in IPv6 Roaming Scenarios
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -196,3 +202,5 @@ keyword:
 - content: IPv6-only
 editorialgroup:
 - name: v6ops
+ext:
+  schema-version: v1.0.0

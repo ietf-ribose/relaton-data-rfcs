@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5550
 title:
 - content: The Internet Email to Support Diverse Service Environments (Lemonade) Profile
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -167,3 +173,5 @@ keyword:
 - content: low-bandwidth efficient
 editorialgroup:
 - name: lemonade
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6186
 title:
 - content: Use of SRV Records for Locating Email Submission/Access Services
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -98,3 +104,5 @@ keyword:
 - content: smtp
 - content: dns
 - content: discovery
+ext:
+  schema-version: v1.0.0

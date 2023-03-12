@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1072
 title:
 - content: TCP extensions for long-delay paths
@@ -84,6 +85,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ series:
     content: RFC
     format: text/plain
   number: '1072'
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6608
 title:
 - content: Subcodes for BGP Finite State Machine Error
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ series:
   number: '6608'
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

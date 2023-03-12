@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3347
 title:
 - content: Small Computer Systems Interface protocol over the Internet (iSCSI) Requirements
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -102,3 +108,5 @@ keyword:
 - content: fibre channel
 editorialgroup:
 - name: ips
+ext:
+  schema-version: v1.0.0

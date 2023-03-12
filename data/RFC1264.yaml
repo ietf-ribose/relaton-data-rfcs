@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1264
 title:
 - content: Internet Engineering Task Force Internet Routing Protocol Standardization
@@ -56,6 +57,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -93,3 +99,5 @@ series:
   number: '1264'
 editorialgroup:
 - name: IESG
+ext:
+  schema-version: v1.0.0

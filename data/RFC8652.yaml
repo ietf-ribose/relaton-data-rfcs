@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8652
 title:
 - content: A YANG Data Model for the Internet Group Management Protocol (IGMP) and
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -200,3 +206,5 @@ keyword:
 - content: routing
 editorialgroup:
 - name: pim
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2170
 title:
 - content: Application REQuested IP over ATM (AREQUIPA)
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ series:
 keyword:
 - content: Internet
 - content: Protocol
+ext:
+  schema-version: v1.0.0

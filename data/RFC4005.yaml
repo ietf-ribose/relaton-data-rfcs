@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4005
 title:
 - content: Diameter Network Access Server Application
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -181,9 +187,7 @@ series:
   number: '4005'
 keyword:
 - content: aaa
-- content: authentication
-- content: authorization
-- content: accounting
+- content: authentication authorization accounting
 - content: nas
 - content: diameter base
 - content: transport profile
@@ -191,3 +195,5 @@ keyword:
 - content: radius
 editorialgroup:
 - name: aaa
+ext:
+  schema-version: v1.0.0

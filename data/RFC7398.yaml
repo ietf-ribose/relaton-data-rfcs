@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7398
 title:
 - content: A Reference Path and Measurement Points for Large-Scale Measurement of
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -197,3 +203,5 @@ keyword:
 - content: performance metrics
 editorialgroup:
 - name: ippm
+ext:
+  schema-version: v1.0.0

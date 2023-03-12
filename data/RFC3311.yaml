@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3311
 title:
 - content: The Session Initiation Protocol (SIP) UPDATE Method
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -70,3 +76,5 @@ keyword:
 - content: media streams
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

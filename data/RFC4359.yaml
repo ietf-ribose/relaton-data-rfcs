@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4359
 title:
 - content: The Use of RSA/SHA-1 Signatures within Encapsulating Security Payload (ESP)
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: digital signature
 editorialgroup:
 - name: msec
+ext:
+  schema-version: v1.0.0

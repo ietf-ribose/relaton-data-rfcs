@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3709
 title:
 - content: 'Internet X.509 Public Key Infrastructure: Logotypes in X.509 Certificates'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -137,3 +143,5 @@ keyword:
 - content: certificates
 editorialgroup:
 - name: pkix
+ext:
+  schema-version: v1.0.0

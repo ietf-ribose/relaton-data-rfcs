@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9071
 title:
 - content: RTP-Mixer Formatting of Multiparty Real-Time Text
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -105,3 +111,5 @@ keyword:
 - content: SIP
 editorialgroup:
 - name: avtcore
+ext:
+  schema-version: v1.0.0

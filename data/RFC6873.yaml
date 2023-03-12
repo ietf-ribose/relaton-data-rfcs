@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6873
 title:
 - content: Format for the Session Initiation Protocol (SIP) Common Log Format (CLF)
@@ -113,6 +114,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -145,3 +151,5 @@ keyword:
 - content: SIPCLF
 editorialgroup:
 - name: sipclf
+ext:
+  schema-version: v1.0.0

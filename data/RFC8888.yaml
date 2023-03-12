@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8888
 title:
 - content: RTP Control Protocol (RTCP) Feedback for Congestion Control
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -172,3 +178,5 @@ keyword:
 - content: RTCP
 editorialgroup:
 - name: avtcore
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC160
 title:
 - content: RFC brief list
@@ -24,6 +25,11 @@ contributor:
     - content: Network Information Center. Stanford Research Institute
   role:
   - type: author
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -70,3 +76,5 @@ series:
     content: RFC
     format: text/plain
   number: '160'
+ext:
+  schema-version: v1.0.0

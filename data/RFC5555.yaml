@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5555
 title:
 - content: Mobile IPv6 Support for Dual Stack Hosts and Routers
@@ -50,6 +51,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ keyword:
 - content: ipv4
 editorialgroup:
 - name: mext
+ext:
+  schema-version: v1.0.0

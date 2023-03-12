@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7362
 title:
 - content: 'Latching: Hosted NAT Traversal (HNT) for Media in Real-Time Communication'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: firewall traversal
 editorialgroup:
 - name: mmusic
+ext:
+  schema-version: v1.0.0

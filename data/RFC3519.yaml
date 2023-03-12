@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3519
 title:
 - content: Mobile IP Traversal of Network Address Translation (NAT) Devices
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -123,3 +129,5 @@ keyword:
 - content: network address translation
 editorialgroup:
 - name: mobileip
+ext:
+  schema-version: v1.0.0

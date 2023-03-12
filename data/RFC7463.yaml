@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7463
 title:
 - content: Shared Appearances of a Session Initiation Protocol (SIP) Address of Record
@@ -109,6 +110,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ series:
   number: '7463'
 editorialgroup:
 - name: bliss
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6649
 title:
 - content: Deprecate DES, RC4-HMAC-EXP, and Other Weak Cryptographic Algorithms in
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -157,3 +163,5 @@ series:
   number: '6649'
 editorialgroup:
 - name: krb-wg
+ext:
+  schema-version: v1.0.0

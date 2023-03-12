@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5347
 title:
 - content: Media Gateway Control Protocol Fax Package
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -109,3 +115,5 @@ keyword:
 - content: fax calls
 - content: fax relay
 - content: fax transmission
+ext:
+  schema-version: v1.0.0

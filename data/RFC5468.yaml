@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5468
 title:
 - content: Performance Analysis of Inter-Domain Path Computation Methodologies
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -138,3 +144,5 @@ keyword:
 - content: path computation element
 - content: brpc
 - content: backward recursive path computation
+ext:
+  schema-version: v1.0.0

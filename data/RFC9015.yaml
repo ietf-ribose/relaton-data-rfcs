@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC9015
 title:
 - content: BGP Control Plane for the Network Service Header in Service Function Chaining
@@ -166,6 +167,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -211,3 +217,5 @@ keyword:
 - content: Control Plane
 editorialgroup:
 - name: bess
+ext:
+  schema-version: v1.0.0

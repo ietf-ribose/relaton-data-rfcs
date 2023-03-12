@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4187
 title:
 - content: Extensible Authentication Protocol Method for 3rd Generation Authentication
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -112,3 +118,5 @@ keyword:
 - content: 3gpp
 - content: universal mobile telecommunications system
 - content: umts
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4306
 title:
 - content: Internet Key Exchange (IKEv2) Protocol
@@ -48,6 +49,11 @@ contributor:
         - Latn
   role:
   - type: editor
+- organization:
+    name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
 - organization:
     name:
     - content: RFC Series
@@ -107,3 +113,5 @@ keyword:
 - content: isakmp
 editorialgroup:
 - name: ipsec
+ext:
+  schema-version: v1.0.0

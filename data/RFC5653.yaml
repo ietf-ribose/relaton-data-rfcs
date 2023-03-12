@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5653
 title:
 - content: 'Generic Security Service API Version 2: Java Bindings Update'
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -91,8 +97,8 @@ abstract:
 - content: '<p>The Generic Security Services Application Program Interface (GSS-API)
     offers application programmers uniform access to security services atop a variety
     of underlying cryptographic mechanisms. This document updates the Java bindings
-    for the GSS-API that are specified in "Generic Security Service API Version 2
-    : Java Bindings" (RFC 2853). This document obsoletes RFC 2853 by making specific
+    for the GSS-API that are specified in "Generic Security Service API Version 2:
+    Java Bindings" (RFC 2853). This document obsoletes RFC 2853 by making specific
     and incremental clarifications and corrections to it in response to identification
     of transcription errors and implementation experience.</p><p>The GSS-API is described
     at a language-independent conceptual level in "Generic Security Service Application
@@ -130,3 +136,5 @@ keyword:
 - content: GSI
 editorialgroup:
 - name: kitten
+ext:
+  schema-version: v1.0.0

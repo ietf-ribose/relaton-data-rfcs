@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8221
 title:
 - content: Cryptographic Algorithm Implementation Requirements and Usage Guidance
@@ -167,6 +168,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -195,3 +201,5 @@ keyword:
 - content: IKE
 editorialgroup:
 - name: ipsecme
+ext:
+  schema-version: v1.0.0

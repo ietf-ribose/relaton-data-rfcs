@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3304
 title:
 - content: Middlebox Communications (midcom) Protocol Requirements
@@ -176,6 +177,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -195,3 +201,5 @@ keyword:
 - content: firewall middleboxes
 editorialgroup:
 - name: midcom
+ext:
+  schema-version: v1.0.0

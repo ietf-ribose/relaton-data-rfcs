@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1585
 title:
 - content: 'MOSPF: Analysis and Experience'
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -81,3 +87,5 @@ keyword:
 - content: Path
 - content: First
 - content: OSPF
+ext:
+  schema-version: v1.0.0

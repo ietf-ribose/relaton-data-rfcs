@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6124
 title:
 - content: An EAP Authentication Method Based on the Encrypted Key Exchange (EKE)
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -171,3 +177,5 @@ keyword:
 - content: password-based cryptography
 - content: password authenticated key exchange
 - content: weak password authentication
+ext:
+  schema-version: v1.0.0

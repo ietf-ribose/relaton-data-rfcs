@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6948
 title:
 - content: Some Measurements on World IPv6 Day from an End-User Perspective
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -108,3 +114,5 @@ series:
     content: RFC
     format: text/plain
   number: '6948'
+ext:
+  schema-version: v1.0.0

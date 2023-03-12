@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3301
 title:
 - content: 'Layer Two Tunnelling Protocol (L2TP): ATM access network extensions'
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -126,3 +132,5 @@ keyword:
 - content: Layer Two Tunneling Protocol
 editorialgroup:
 - name: l2tpext
+ext:
+  schema-version: v1.0.0

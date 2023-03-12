@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3034
 title:
 - content: Use of Label Switching on Frame Relay Networks Specification
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ keyword:
 - content: multi-protocol label switching
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

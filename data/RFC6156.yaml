@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6156
 title:
 - content: Traversal Using Relays around NAT (TURN) Extension for IPv6
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -150,3 +156,5 @@ keyword:
 - content: IPv6
 editorialgroup:
 - name: behave
+ext:
+  schema-version: v1.0.0

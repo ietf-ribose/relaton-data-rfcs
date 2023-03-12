@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6855
 title:
 - content: IMAP Support for UTF-8
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -135,3 +141,5 @@ keyword:
 - content: IDNA
 editorialgroup:
 - name: eai
+ext:
+  schema-version: v1.0.0

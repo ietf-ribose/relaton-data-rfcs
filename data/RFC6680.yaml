@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6680
 title:
 - content: Generic Security Service Application Programming Interface (GSS-API) Naming
@@ -138,6 +139,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -163,3 +169,5 @@ series:
   number: '6680'
 editorialgroup:
 - name: kitten
+ext:
+  schema-version: v1.0.0

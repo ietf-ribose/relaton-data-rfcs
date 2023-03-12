@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4320
 title:
 - content: Actions Addressing Identified Issues with the Session Initiation Protocol's
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -89,3 +95,5 @@ series:
   number: '4320'
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

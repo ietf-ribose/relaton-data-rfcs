@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4906
 title:
 - content: Transport of Layer 2 Frames Over MPLS
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -141,3 +147,5 @@ keyword:
 - content: protocol data unit
 - content: sonet
 - content: synchronized optical network
+ext:
+  schema-version: v1.0.0

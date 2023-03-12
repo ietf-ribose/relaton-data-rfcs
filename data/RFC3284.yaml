@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3284
 title:
 - content: The VCDIFF Generic Differencing and Compression Data Format
@@ -137,6 +138,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -165,3 +171,5 @@ keyword:
 - content: portable
 - content: at&t
 - content: encoding
+ext:
+  schema-version: v1.0.0

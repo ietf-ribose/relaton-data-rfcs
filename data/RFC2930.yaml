@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC2930
 title:
 - content: Secret Key Establishment for DNS (TKEY RR)
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -80,3 +86,5 @@ keyword:
 - content: transaction key
 editorialgroup:
 - name: dnsext
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC6067
 title:
 - content: BCP 47 Extension U
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -134,3 +140,5 @@ series:
 keyword:
 - content: locale
 - content: bcp 47
+ext:
+  schema-version: v1.0.0

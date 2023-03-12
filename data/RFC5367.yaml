@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC5367
 title:
 - content: Subscriptions to Request-Contained Resource Lists in the Session Initiation
@@ -114,6 +115,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -155,3 +161,5 @@ keyword:
 - content: resrouce list
 editorialgroup:
 - name: sip
+ext:
+  schema-version: v1.0.0

@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC1745
 title:
 - content: BGP4/IDRP for IP---OSPF Interaction
@@ -108,6 +109,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: First
 editorialgroup:
 - name: idr
+ext:
+  schema-version: v1.0.0

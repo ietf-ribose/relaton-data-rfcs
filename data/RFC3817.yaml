@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC3817
 title:
 - content: Layer 2 Tunneling Protocol (L2TP) Active Discovery Relay for PPP over Ethernet
@@ -80,6 +81,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -114,3 +120,5 @@ keyword:
 - content: point-to-point
 editorialgroup:
 - name: l2tpext
+ext:
+  schema-version: v1.0.0

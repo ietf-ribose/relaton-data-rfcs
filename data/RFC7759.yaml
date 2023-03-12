@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7759
 title:
 - content: Configuration of Proactive Operations, Administration, and Maintenance
@@ -197,6 +198,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -226,3 +232,5 @@ keyword:
 - content: " OAM"
 editorialgroup:
 - name: mpls
+ext:
+  schema-version: v1.0.0

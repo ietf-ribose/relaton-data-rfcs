@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC4901
 title:
 - content: Protocol Extensions for Header Compression over MPLS
@@ -108,6 +109,11 @@ contributor:
   - type: editor
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -144,3 +150,5 @@ keyword:
 - content: hc
 editorialgroup:
 - name: avt
+ext:
+  schema-version: v1.0.0

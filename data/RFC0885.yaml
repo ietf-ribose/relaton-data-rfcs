@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC885
 title:
 - content: Telnet end of record option
@@ -50,6 +51,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -74,3 +80,5 @@ series:
   number: '885'
 keyword:
 - content: TOPT-EOR
+ext:
+  schema-version: v1.0.0

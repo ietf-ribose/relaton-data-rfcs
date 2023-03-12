@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC7217
 title:
 - content: A Method for Generating Semantically Opaque Interface Identifiers with
@@ -51,6 +52,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -82,3 +88,5 @@ series:
   number: '7217'
 editorialgroup:
 - name: 6man
+ext:
+  schema-version: v1.0.0

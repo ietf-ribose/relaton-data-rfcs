@@ -1,4 +1,5 @@
 ---
+schema-version: v1.2.1
 id: RFC8137
 title:
 - content: IEEE 802.15.4 Information Element for the IETF
@@ -79,6 +80,11 @@ contributor:
   - type: author
 - organization:
     name:
+    - content: RFC Publisher
+  role:
+  - type: publisher
+- organization:
+    name:
     - content: RFC Series
   role:
   - type: authorizer
@@ -105,3 +111,5 @@ series:
   number: '8137'
 keyword:
 - content: IE
+ext:
+  schema-version: v1.0.0
