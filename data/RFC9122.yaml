@@ -1,5 +1,5 @@
 ---
-schema-version: v1.2.3
+schema-version: v1.2.1
 id: RFC9122
 title:
 - content: IANA Registry for Sieve Actions
@@ -104,10 +104,6 @@ abstract:
   - Latn
   format: text/html
 series:
-- type: stream
-  title:
-    content: IETF
-    format: text/plain
 - title:
     content: RFC
     format: text/plain
